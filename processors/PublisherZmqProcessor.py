@@ -3,9 +3,9 @@ import time
 import zmq
 from zmq import Socket
 import pickle
-from MyZmqProcessor import MyZmqProcessor
+from BaseZmqProcessor import BaseZmqProcessor
 
-class PublisherZmqProcessor(MyZmqProcessor):
+class PublisherZmqProcessor(BaseZmqProcessor):
     """Notes:
         - This file should reside in the same folder as the ZMQ subscriber
         - This class name must match the filename in order to be properly loaded by the ZMQ subscriber
