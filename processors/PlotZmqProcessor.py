@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import threading
 import queue
-from MyZmqProcessor import MyZmqProcessor
+from BaseZmqProcessor import BaseZmqProcessor
 
-class PlotZmqProcessor(MyZmqProcessor):
+class PlotZmqProcessor(BaseZmqProcessor):
     def __init__(self, sub_ip="localhost", batch_size=1, info_port=5597, event_port=5598):
         print("Initializing user-defined batch-processor")
 
