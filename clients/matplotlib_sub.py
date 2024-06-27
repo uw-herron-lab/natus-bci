@@ -3,17 +3,16 @@ from matplotlib.animation import FuncAnimation
 from client_sub import ClientSub
 import time
 import logging
-from utils import get_unique_filename
+import json
+from utils import get_unique_filename, setup_logging
+import numpy as np
 
-# Configure logging
-base_log_file = 'clients/logs/plot_update.log'
-unique_log_file = get_unique_filename(base_log_file)
+# Define constants for file paths
+DEBUG_LOG_FILE = 'clients/logs/matplotlib/matplotlib_debug.log'
+DATA_LOG_FILE = 'clients/logs/matplotlib/data_log.json'
 
-logging.basicConfig(
-    filename=unique_log_file,  # Log to a file. Change this to None for console logging.
-    level=logging.INFO,          # Log info and above levels (INFO, WARNING, ERROR, CRITICAL)
-    format='%(asctime)s - %(levelname)s - %(message)s'  # Log format including time
-)
+# Setup logging
+setup_logging(DEBUG_LOG_FILE)
 
 # Plots the data received from the subscriber in matplotlib
 class MatPlotLibSub(ClientSub):
@@ -21,9 +20,9 @@ class MatPlotLibSub(ClientSub):
         super().__init__(sub_ip, sub_port, sub_topic)
         self.curr_time = time.time()
         self.last_time = self.curr_time
+        self.data_log = {"samplestamps": []}
 
-    def update_plot(self, frame, axs, data : list = []):
-        # TODO: Implement logging data
+    def update_plot(self, frame, axs):
         try:
             # Measure time from the last call in milliseconds
             self.last_time = self.curr_time
@@ -34,11 +33,11 @@ class MatPlotLibSub(ClientSub):
             samplestamps, samples = self.get_data()
 
             logging.info("Received %d samples", len(samples))
-            logging.debug("Samples: %s", samples)
+            self.data_log["samplestamps"].extend(samplestamps)
 
             for i in range(self.n_channels):
-                data[i].extend(samples[:,i])
-                logging.info("Data successfully appended to channel data arrays")
+                self.data_log[f"channel_{i+1}"].extend(samples[:, i])
+                logging.info(f"Data successfully appended to channel {i+1}")
 
             print("Got Data!")
         except Exception as e:
@@ -51,7 +50,7 @@ class MatPlotLibSub(ClientSub):
         for i, ax in enumerate(axs):
             ax.clear()
             ax.set_title(f"Channel {i+1}")
-            line, = ax.plot(data[i][-2000:])
+            line, = ax.plot(self.data_log[f"channel_{i+1}"][-2000:])
             ax.relim()
             ax.autoscale_view(True, True, True)
             line_objects.append(line)
@@ -60,21 +59,32 @@ class MatPlotLibSub(ClientSub):
 
     def plot_data(self, n_channels : int = 1):
         self.n_channels = n_channels  # Set the number of channels you want to plot
+        for i in range(self.n_channels):
+            self.data_log[f"channel_{i+1}"] = []
+
         fig, axs = plt.subplots(self.n_channels, 1, figsize=(8, 6 * self.n_channels))
-
         fig.subplots_adjust(hspace=0.5)
-
-        # Initialize empty lists to store data for each channel
-        data = [[] for _ in range(self.n_channels)]
-
         logging.info("Starting plot with %d channels", self.n_channels)
 
         try:
-            ani = FuncAnimation(fig, self.update_plot, fargs=(axs, data), frames=None, blit=True, interval=1, repeat=False)
+            ani = FuncAnimation(fig, self.update_plot, fargs=(axs,), frames=None, blit=True, interval=1, repeat=False)
             plt.show()
 
         except KeyboardInterrupt:
             print("Subscriber stopped by user")
+
+        self.save_data_log()
+
+    def save_data_log(self):
+        unique_data_log_file = get_unique_filename(DATA_LOG_FILE)
+
+        with open(unique_data_log_file, "w") as json_file:
+            for key in self.data_log.keys():
+                self.data_log[key] = np.array(self.data_log[key])
+                if isinstance(self.data_log[key], np.ndarray):
+                    self.data_log[key] = self.data_log[key].tolist()
+            json.dump(self.data_log, json_file, indent=4)
+        logging.info("Data log saved to %s", unique_data_log_file)
 
 if __name__ == "__main__":
     subscriber = MatPlotLibSub()

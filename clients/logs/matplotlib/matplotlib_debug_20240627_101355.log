@@ -1,0 +1,774 @@
+2024-06-27 10:13:55,568 - INFO - Starting plot with 2 channels
+2024-06-27 10:13:55,661 - INFO - Time since last plot: 287.54 ms
+2024-06-27 10:13:55,661 - INFO - Received 250 samples
+2024-06-27 10:13:55,661 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:55,661 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:55,741 - INFO - Time since last plot: 80.01 ms
+2024-06-27 10:13:55,742 - INFO - Received 250 samples
+2024-06-27 10:13:55,742 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:55,742 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:55,883 - INFO - Time since last plot: 142.36 ms
+2024-06-27 10:13:55,883 - INFO - Received 250 samples
+2024-06-27 10:13:55,883 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:55,883 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:55,958 - INFO - Time since last plot: 74.35 ms
+2024-06-27 10:13:55,958 - INFO - Received 250 samples
+2024-06-27 10:13:55,959 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:55,959 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:56,023 - INFO - Time since last plot: 65.00 ms
+2024-06-27 10:13:56,023 - INFO - Received 250 samples
+2024-06-27 10:13:56,024 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:56,024 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:56,084 - INFO - Time since last plot: 61.51 ms
+2024-06-27 10:13:56,085 - INFO - Received 250 samples
+2024-06-27 10:13:56,085 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:56,085 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:56,148 - INFO - Time since last plot: 64.02 ms
+2024-06-27 10:13:56,152 - INFO - Received 250 samples
+2024-06-27 10:13:56,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:56,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:56,215 - INFO - Time since last plot: 66.91 ms
+2024-06-27 10:13:56,277 - INFO - Received 250 samples
+2024-06-27 10:13:56,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:56,278 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:56,336 - INFO - Time since last plot: 120.53 ms
+2024-06-27 10:13:56,402 - INFO - Received 250 samples
+2024-06-27 10:13:56,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:56,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:56,459 - INFO - Time since last plot: 123.44 ms
+2024-06-27 10:13:56,527 - INFO - Received 250 samples
+2024-06-27 10:13:56,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:56,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:56,582 - INFO - Time since last plot: 122.52 ms
+2024-06-27 10:13:56,652 - INFO - Received 250 samples
+2024-06-27 10:13:56,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:56,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:56,709 - INFO - Time since last plot: 127.02 ms
+2024-06-27 10:13:56,777 - INFO - Received 250 samples
+2024-06-27 10:13:56,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:56,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:56,850 - INFO - Time since last plot: 141.02 ms
+2024-06-27 10:13:56,902 - INFO - Received 250 samples
+2024-06-27 10:13:56,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:56,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:56,957 - INFO - Time since last plot: 107.55 ms
+2024-06-27 10:13:57,027 - INFO - Received 250 samples
+2024-06-27 10:13:57,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:57,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:57,089 - INFO - Time since last plot: 131.52 ms
+2024-06-27 10:13:57,151 - INFO - Received 250 samples
+2024-06-27 10:13:57,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:57,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:57,218 - INFO - Time since last plot: 129.53 ms
+2024-06-27 10:13:57,277 - INFO - Received 250 samples
+2024-06-27 10:13:57,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:57,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:57,349 - INFO - Time since last plot: 130.53 ms
+2024-06-27 10:13:57,401 - INFO - Received 250 samples
+2024-06-27 10:13:57,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:57,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:57,463 - INFO - Time since last plot: 114.06 ms
+2024-06-27 10:13:57,527 - INFO - Received 250 samples
+2024-06-27 10:13:57,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:57,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:57,587 - INFO - Time since last plot: 123.63 ms
+2024-06-27 10:13:57,652 - INFO - Received 250 samples
+2024-06-27 10:13:57,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:57,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:57,720 - INFO - Time since last plot: 133.48 ms
+2024-06-27 10:13:57,777 - INFO - Received 250 samples
+2024-06-27 10:13:57,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:57,778 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:57,835 - INFO - Time since last plot: 115.05 ms
+2024-06-27 10:13:57,902 - INFO - Received 250 samples
+2024-06-27 10:13:57,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:57,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:57,964 - INFO - Time since last plot: 129.04 ms
+2024-06-27 10:13:58,027 - INFO - Received 250 samples
+2024-06-27 10:13:58,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:58,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:58,087 - INFO - Time since last plot: 122.52 ms
+2024-06-27 10:13:58,155 - INFO - Received 250 samples
+2024-06-27 10:13:58,156 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:58,156 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:58,238 - INFO - Time since last plot: 151.53 ms
+2024-06-27 10:13:58,277 - INFO - Received 250 samples
+2024-06-27 10:13:58,278 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:58,278 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:58,343 - INFO - Time since last plot: 104.53 ms
+2024-06-27 10:13:58,402 - INFO - Received 250 samples
+2024-06-27 10:13:58,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:58,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:58,463 - INFO - Time since last plot: 120.05 ms
+2024-06-27 10:13:58,527 - INFO - Received 250 samples
+2024-06-27 10:13:58,528 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:58,528 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:58,584 - INFO - Time since last plot: 121.53 ms
+2024-06-27 10:13:58,652 - INFO - Received 250 samples
+2024-06-27 10:13:58,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:58,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:58,710 - INFO - Time since last plot: 125.52 ms
+2024-06-27 10:13:58,777 - INFO - Received 250 samples
+2024-06-27 10:13:58,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:58,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:58,832 - INFO - Time since last plot: 122.53 ms
+2024-06-27 10:13:58,902 - INFO - Received 250 samples
+2024-06-27 10:13:58,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:58,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:58,959 - INFO - Time since last plot: 127.05 ms
+2024-06-27 10:13:59,027 - INFO - Received 250 samples
+2024-06-27 10:13:59,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:59,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:59,083 - INFO - Time since last plot: 123.52 ms
+2024-06-27 10:13:59,152 - INFO - Received 250 samples
+2024-06-27 10:13:59,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:59,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:59,210 - INFO - Time since last plot: 126.94 ms
+2024-06-27 10:13:59,277 - INFO - Received 250 samples
+2024-06-27 10:13:59,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:59,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:59,336 - INFO - Time since last plot: 126.53 ms
+2024-06-27 10:13:59,402 - INFO - Received 250 samples
+2024-06-27 10:13:59,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:59,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:59,456 - INFO - Time since last plot: 119.05 ms
+2024-06-27 10:13:59,526 - INFO - Received 250 samples
+2024-06-27 10:13:59,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:59,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:59,582 - INFO - Time since last plot: 126.53 ms
+2024-06-27 10:13:59,652 - INFO - Received 250 samples
+2024-06-27 10:13:59,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:59,653 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:59,708 - INFO - Time since last plot: 126.05 ms
+2024-06-27 10:13:59,777 - INFO - Received 250 samples
+2024-06-27 10:13:59,778 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:59,778 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:59,843 - INFO - Time since last plot: 134.55 ms
+2024-06-27 10:13:59,902 - INFO - Received 250 samples
+2024-06-27 10:13:59,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:13:59,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:13:59,964 - INFO - Time since last plot: 121.05 ms
+2024-06-27 10:14:00,027 - INFO - Received 250 samples
+2024-06-27 10:14:00,028 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:00,028 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:00,095 - INFO - Time since last plot: 131.52 ms
+2024-06-27 10:14:00,153 - INFO - Received 250 samples
+2024-06-27 10:14:00,154 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:00,154 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:00,234 - INFO - Time since last plot: 138.53 ms
+2024-06-27 10:14:00,277 - INFO - Received 250 samples
+2024-06-27 10:14:00,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:00,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:00,332 - INFO - Time since last plot: 98.52 ms
+2024-06-27 10:14:00,402 - INFO - Received 250 samples
+2024-06-27 10:14:00,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:00,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:00,463 - INFO - Time since last plot: 131.05 ms
+2024-06-27 10:14:00,527 - INFO - Received 250 samples
+2024-06-27 10:14:00,528 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:00,528 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:00,603 - INFO - Time since last plot: 139.29 ms
+2024-06-27 10:14:00,653 - INFO - Received 250 samples
+2024-06-27 10:14:00,654 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:00,654 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:00,730 - INFO - Time since last plot: 127.52 ms
+2024-06-27 10:14:00,778 - INFO - Received 250 samples
+2024-06-27 10:14:00,778 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:00,778 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:00,837 - INFO - Time since last plot: 106.62 ms
+2024-06-27 10:14:00,902 - INFO - Received 250 samples
+2024-06-27 10:14:00,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:00,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:00,974 - INFO - Time since last plot: 137.08 ms
+2024-06-27 10:14:01,027 - INFO - Received 250 samples
+2024-06-27 10:14:01,028 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:01,028 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:01,086 - INFO - Time since last plot: 112.52 ms
+2024-06-27 10:14:01,152 - INFO - Received 250 samples
+2024-06-27 10:14:01,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:01,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:01,209 - INFO - Time since last plot: 122.52 ms
+2024-06-27 10:14:01,277 - INFO - Received 250 samples
+2024-06-27 10:14:01,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:01,278 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:01,338 - INFO - Time since last plot: 129.19 ms
+2024-06-27 10:14:01,402 - INFO - Received 250 samples
+2024-06-27 10:14:01,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:01,403 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:01,464 - INFO - Time since last plot: 126.04 ms
+2024-06-27 10:14:01,527 - INFO - Received 250 samples
+2024-06-27 10:14:01,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:01,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:01,595 - INFO - Time since last plot: 130.53 ms
+2024-06-27 10:14:01,652 - INFO - Received 250 samples
+2024-06-27 10:14:01,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:01,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:01,723 - INFO - Time since last plot: 128.53 ms
+2024-06-27 10:14:01,777 - INFO - Received 250 samples
+2024-06-27 10:14:01,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:01,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:01,841 - INFO - Time since last plot: 118.20 ms
+2024-06-27 10:14:01,902 - INFO - Received 250 samples
+2024-06-27 10:14:01,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:01,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:01,962 - INFO - Time since last plot: 121.04 ms
+2024-06-27 10:14:02,027 - INFO - Received 250 samples
+2024-06-27 10:14:02,028 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:02,028 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:02,106 - INFO - Time since last plot: 143.52 ms
+2024-06-27 10:14:02,152 - INFO - Received 250 samples
+2024-06-27 10:14:02,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:02,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:02,218 - INFO - Time since last plot: 112.53 ms
+2024-06-27 10:14:02,277 - INFO - Received 250 samples
+2024-06-27 10:14:02,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:02,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:02,347 - INFO - Time since last plot: 128.88 ms
+2024-06-27 10:14:02,402 - INFO - Received 250 samples
+2024-06-27 10:14:02,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:02,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:02,467 - INFO - Time since last plot: 120.04 ms
+2024-06-27 10:14:02,527 - INFO - Received 250 samples
+2024-06-27 10:14:02,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:02,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:02,589 - INFO - Time since last plot: 121.52 ms
+2024-06-27 10:14:02,652 - INFO - Received 250 samples
+2024-06-27 10:14:02,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:02,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:02,712 - INFO - Time since last plot: 123.56 ms
+2024-06-27 10:14:02,777 - INFO - Received 250 samples
+2024-06-27 10:14:02,778 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:02,778 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:02,849 - INFO - Time since last plot: 136.54 ms
+2024-06-27 10:14:02,901 - INFO - Received 250 samples
+2024-06-27 10:14:02,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:02,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:02,966 - INFO - Time since last plot: 117.07 ms
+2024-06-27 10:14:03,027 - INFO - Received 250 samples
+2024-06-27 10:14:03,028 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:03,028 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:03,087 - INFO - Time since last plot: 121.48 ms
+2024-06-27 10:14:03,151 - INFO - Received 250 samples
+2024-06-27 10:14:03,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:03,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:03,211 - INFO - Time since last plot: 123.93 ms
+2024-06-27 10:14:03,277 - INFO - Received 250 samples
+2024-06-27 10:14:03,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:03,278 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:03,348 - INFO - Time since last plot: 136.52 ms
+2024-06-27 10:14:03,401 - INFO - Received 250 samples
+2024-06-27 10:14:03,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:03,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:03,460 - INFO - Time since last plot: 112.04 ms
+2024-06-27 10:14:03,527 - INFO - Received 250 samples
+2024-06-27 10:14:03,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:03,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:03,586 - INFO - Time since last plot: 126.51 ms
+2024-06-27 10:14:03,651 - INFO - Received 250 samples
+2024-06-27 10:14:03,651 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:03,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:03,711 - INFO - Time since last plot: 124.53 ms
+2024-06-27 10:14:03,778 - INFO - Received 250 samples
+2024-06-27 10:14:03,778 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:03,778 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:03,838 - INFO - Time since last plot: 126.51 ms
+2024-06-27 10:14:03,902 - INFO - Received 250 samples
+2024-06-27 10:14:03,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:03,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:03,959 - INFO - Time since last plot: 121.05 ms
+2024-06-27 10:14:04,028 - INFO - Received 250 samples
+2024-06-27 10:14:04,028 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:04,028 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:04,103 - INFO - Time since last plot: 144.52 ms
+2024-06-27 10:14:04,151 - INFO - Received 250 samples
+2024-06-27 10:14:04,151 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:04,153 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:04,206 - INFO - Time since last plot: 102.52 ms
+2024-06-27 10:14:04,277 - INFO - Received 250 samples
+2024-06-27 10:14:04,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:04,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:04,334 - INFO - Time since last plot: 128.54 ms
+2024-06-27 10:14:04,402 - INFO - Received 250 samples
+2024-06-27 10:14:04,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:04,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:04,464 - INFO - Time since last plot: 130.07 ms
+2024-06-27 10:14:04,527 - INFO - Received 250 samples
+2024-06-27 10:14:04,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:04,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:04,590 - INFO - Time since last plot: 125.87 ms
+2024-06-27 10:14:04,651 - INFO - Received 250 samples
+2024-06-27 10:14:04,651 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:04,651 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:04,715 - INFO - Time since last plot: 124.54 ms
+2024-06-27 10:14:04,777 - INFO - Received 250 samples
+2024-06-27 10:14:04,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:04,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:04,832 - INFO - Time since last plot: 117.52 ms
+2024-06-27 10:14:04,902 - INFO - Received 250 samples
+2024-06-27 10:14:04,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:04,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:04,958 - INFO - Time since last plot: 126.05 ms
+2024-06-27 10:14:05,027 - INFO - Received 250 samples
+2024-06-27 10:14:05,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:05,028 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:05,101 - INFO - Time since last plot: 142.55 ms
+2024-06-27 10:14:05,154 - INFO - Received 250 samples
+2024-06-27 10:14:05,154 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:05,154 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:05,220 - INFO - Time since last plot: 119.53 ms
+2024-06-27 10:14:05,277 - INFO - Received 250 samples
+2024-06-27 10:14:05,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:05,278 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:05,334 - INFO - Time since last plot: 113.53 ms
+2024-06-27 10:14:05,403 - INFO - Received 250 samples
+2024-06-27 10:14:05,403 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:05,403 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:05,463 - INFO - Time since last plot: 129.05 ms
+2024-06-27 10:14:05,527 - INFO - Received 250 samples
+2024-06-27 10:14:05,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:05,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:05,588 - INFO - Time since last plot: 125.53 ms
+2024-06-27 10:14:05,651 - INFO - Received 250 samples
+2024-06-27 10:14:05,651 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:05,651 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:05,717 - INFO - Time since last plot: 128.54 ms
+2024-06-27 10:14:05,776 - INFO - Received 250 samples
+2024-06-27 10:14:05,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:05,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:05,852 - INFO - Time since last plot: 134.58 ms
+2024-06-27 10:14:05,902 - INFO - Received 250 samples
+2024-06-27 10:14:05,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:05,903 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:05,964 - INFO - Time since last plot: 112.37 ms
+2024-06-27 10:14:06,027 - INFO - Received 250 samples
+2024-06-27 10:14:06,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:06,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:06,089 - INFO - Time since last plot: 125.55 ms
+2024-06-27 10:14:06,151 - INFO - Received 250 samples
+2024-06-27 10:14:06,151 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:06,151 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:06,213 - INFO - Time since last plot: 123.54 ms
+2024-06-27 10:14:06,276 - INFO - Received 250 samples
+2024-06-27 10:14:06,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:06,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:06,336 - INFO - Time since last plot: 123.53 ms
+2024-06-27 10:14:06,402 - INFO - Received 250 samples
+2024-06-27 10:14:06,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:06,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:06,458 - INFO - Time since last plot: 121.04 ms
+2024-06-27 10:14:06,527 - INFO - Received 250 samples
+2024-06-27 10:14:06,528 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:06,528 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:06,587 - INFO - Time since last plot: 129.56 ms
+2024-06-27 10:14:06,652 - INFO - Received 250 samples
+2024-06-27 10:14:06,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:06,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:06,732 - INFO - Time since last plot: 144.48 ms
+2024-06-27 10:14:06,777 - INFO - Received 250 samples
+2024-06-27 10:14:06,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:06,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:06,842 - INFO - Time since last plot: 110.64 ms
+2024-06-27 10:14:06,902 - INFO - Received 250 samples
+2024-06-27 10:14:06,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:06,903 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:06,963 - INFO - Time since last plot: 121.01 ms
+2024-06-27 10:14:07,027 - INFO - Received 250 samples
+2024-06-27 10:14:07,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:07,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:07,085 - INFO - Time since last plot: 121.50 ms
+2024-06-27 10:14:07,152 - INFO - Received 250 samples
+2024-06-27 10:14:07,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:07,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:07,207 - INFO - Time since last plot: 122.54 ms
+2024-06-27 10:14:07,277 - INFO - Received 250 samples
+2024-06-27 10:14:07,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:07,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:07,335 - INFO - Time since last plot: 127.45 ms
+2024-06-27 10:14:07,402 - INFO - Received 250 samples
+2024-06-27 10:14:07,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:07,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:07,462 - INFO - Time since last plot: 127.70 ms
+2024-06-27 10:14:07,526 - INFO - Received 250 samples
+2024-06-27 10:14:07,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:07,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:07,586 - INFO - Time since last plot: 123.35 ms
+2024-06-27 10:14:07,652 - INFO - Received 250 samples
+2024-06-27 10:14:07,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:07,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:07,712 - INFO - Time since last plot: 126.73 ms
+2024-06-27 10:14:07,777 - INFO - Received 250 samples
+2024-06-27 10:14:07,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:07,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:07,836 - INFO - Time since last plot: 123.02 ms
+2024-06-27 10:14:07,902 - INFO - Received 250 samples
+2024-06-27 10:14:07,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:07,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:07,960 - INFO - Time since last plot: 124.03 ms
+2024-06-27 10:14:08,027 - INFO - Received 250 samples
+2024-06-27 10:14:08,028 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:08,028 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:08,103 - INFO - Time since last plot: 143.53 ms
+2024-06-27 10:14:08,152 - INFO - Received 250 samples
+2024-06-27 10:14:08,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:08,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:08,214 - INFO - Time since last plot: 109.54 ms
+2024-06-27 10:14:08,277 - INFO - Received 250 samples
+2024-06-27 10:14:08,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:08,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:08,335 - INFO - Time since last plot: 122.51 ms
+2024-06-27 10:14:08,402 - INFO - Received 250 samples
+2024-06-27 10:14:08,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:08,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:08,459 - INFO - Time since last plot: 124.12 ms
+2024-06-27 10:14:08,526 - INFO - Received 250 samples
+2024-06-27 10:14:08,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:08,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:08,586 - INFO - Time since last plot: 126.52 ms
+2024-06-27 10:14:08,652 - INFO - Received 250 samples
+2024-06-27 10:14:08,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:08,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:08,715 - INFO - Time since last plot: 129.50 ms
+2024-06-27 10:14:08,777 - INFO - Received 250 samples
+2024-06-27 10:14:08,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:08,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:08,839 - INFO - Time since last plot: 123.52 ms
+2024-06-27 10:14:08,902 - INFO - Received 250 samples
+2024-06-27 10:14:08,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:08,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:08,979 - INFO - Time since last plot: 140.04 ms
+2024-06-27 10:14:09,027 - INFO - Received 250 samples
+2024-06-27 10:14:09,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:09,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:09,094 - INFO - Time since last plot: 115.53 ms
+2024-06-27 10:14:09,152 - INFO - Received 250 samples
+2024-06-27 10:14:09,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:09,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:09,233 - INFO - Time since last plot: 138.56 ms
+2024-06-27 10:14:09,276 - INFO - Received 250 samples
+2024-06-27 10:14:09,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:09,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:09,338 - INFO - Time since last plot: 105.51 ms
+2024-06-27 10:14:09,402 - INFO - Received 250 samples
+2024-06-27 10:14:09,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:09,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:09,467 - INFO - Time since last plot: 129.04 ms
+2024-06-27 10:14:09,527 - INFO - Received 250 samples
+2024-06-27 10:14:09,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:09,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:09,590 - INFO - Time since last plot: 122.54 ms
+2024-06-27 10:14:09,652 - INFO - Received 250 samples
+2024-06-27 10:14:09,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:09,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:09,713 - INFO - Time since last plot: 123.15 ms
+2024-06-27 10:14:09,777 - INFO - Received 250 samples
+2024-06-27 10:14:09,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:09,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:09,838 - INFO - Time since last plot: 124.51 ms
+2024-06-27 10:14:09,902 - INFO - Received 250 samples
+2024-06-27 10:14:09,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:09,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:09,962 - INFO - Time since last plot: 124.08 ms
+2024-06-27 10:14:10,027 - INFO - Received 250 samples
+2024-06-27 10:14:10,031 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:10,031 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:10,088 - INFO - Time since last plot: 126.08 ms
+2024-06-27 10:14:10,152 - INFO - Received 250 samples
+2024-06-27 10:14:10,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:10,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:10,216 - INFO - Time since last plot: 128.52 ms
+2024-06-27 10:14:10,277 - INFO - Received 250 samples
+2024-06-27 10:14:10,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:10,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:10,335 - INFO - Time since last plot: 118.51 ms
+2024-06-27 10:14:10,402 - INFO - Received 250 samples
+2024-06-27 10:14:10,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:10,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:10,461 - INFO - Time since last plot: 126.05 ms
+2024-06-27 10:14:10,527 - INFO - Received 250 samples
+2024-06-27 10:14:10,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:10,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:10,591 - INFO - Time since last plot: 130.52 ms
+2024-06-27 10:14:10,651 - INFO - Received 250 samples
+2024-06-27 10:14:10,651 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:10,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:10,711 - INFO - Time since last plot: 119.28 ms
+2024-06-27 10:14:10,776 - INFO - Received 250 samples
+2024-06-27 10:14:10,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:10,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:10,834 - INFO - Time since last plot: 123.63 ms
+2024-06-27 10:14:10,902 - INFO - Received 250 samples
+2024-06-27 10:14:10,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:10,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:10,962 - INFO - Time since last plot: 128.00 ms
+2024-06-27 10:14:11,026 - INFO - Received 250 samples
+2024-06-27 10:14:11,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:11,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:11,085 - INFO - Time since last plot: 122.53 ms
+2024-06-27 10:14:11,152 - INFO - Received 250 samples
+2024-06-27 10:14:11,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:11,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:11,215 - INFO - Time since last plot: 130.53 ms
+2024-06-27 10:14:11,277 - INFO - Received 250 samples
+2024-06-27 10:14:11,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:11,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:11,334 - INFO - Time since last plot: 118.53 ms
+2024-06-27 10:14:11,402 - INFO - Received 250 samples
+2024-06-27 10:14:11,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:11,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:11,460 - INFO - Time since last plot: 126.56 ms
+2024-06-27 10:14:11,526 - INFO - Received 250 samples
+2024-06-27 10:14:11,526 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:11,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:11,595 - INFO - Time since last plot: 134.54 ms
+2024-06-27 10:14:11,652 - INFO - Received 250 samples
+2024-06-27 10:14:11,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:11,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:11,720 - INFO - Time since last plot: 125.14 ms
+2024-06-27 10:14:11,777 - INFO - Received 250 samples
+2024-06-27 10:14:11,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:11,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:11,841 - INFO - Time since last plot: 121.28 ms
+2024-06-27 10:14:11,902 - INFO - Received 250 samples
+2024-06-27 10:14:11,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:11,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:11,960 - INFO - Time since last plot: 119.04 ms
+2024-06-27 10:14:12,026 - INFO - Received 250 samples
+2024-06-27 10:14:12,026 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:12,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:12,082 - INFO - Time since last plot: 121.60 ms
+2024-06-27 10:14:12,152 - INFO - Received 250 samples
+2024-06-27 10:14:12,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:12,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:12,209 - INFO - Time since last plot: 126.51 ms
+2024-06-27 10:14:12,277 - INFO - Received 250 samples
+2024-06-27 10:14:12,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:12,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:12,343 - INFO - Time since last plot: 134.54 ms
+2024-06-27 10:14:12,403 - INFO - Received 250 samples
+2024-06-27 10:14:12,403 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:12,403 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:12,466 - INFO - Time since last plot: 123.06 ms
+2024-06-27 10:14:12,527 - INFO - Received 250 samples
+2024-06-27 10:14:12,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:12,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:12,589 - INFO - Time since last plot: 122.51 ms
+2024-06-27 10:14:12,652 - INFO - Received 250 samples
+2024-06-27 10:14:12,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:12,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:12,710 - INFO - Time since last plot: 121.52 ms
+2024-06-27 10:14:12,777 - INFO - Received 250 samples
+2024-06-27 10:14:12,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:12,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:12,837 - INFO - Time since last plot: 126.93 ms
+2024-06-27 10:14:12,902 - INFO - Received 250 samples
+2024-06-27 10:14:12,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:12,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:12,962 - INFO - Time since last plot: 124.66 ms
+2024-06-27 10:14:13,027 - INFO - Received 250 samples
+2024-06-27 10:14:13,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:13,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:13,088 - INFO - Time since last plot: 126.56 ms
+2024-06-27 10:14:13,152 - INFO - Received 250 samples
+2024-06-27 10:14:13,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:13,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:13,211 - INFO - Time since last plot: 122.54 ms
+2024-06-27 10:14:13,276 - INFO - Received 250 samples
+2024-06-27 10:14:13,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:13,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:13,333 - INFO - Time since last plot: 122.52 ms
+2024-06-27 10:14:13,402 - INFO - Received 250 samples
+2024-06-27 10:14:13,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:13,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:13,461 - INFO - Time since last plot: 128.03 ms
+2024-06-27 10:14:13,526 - INFO - Received 250 samples
+2024-06-27 10:14:13,526 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:13,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:13,587 - INFO - Time since last plot: 125.53 ms
+2024-06-27 10:14:13,652 - INFO - Received 250 samples
+2024-06-27 10:14:13,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:13,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:13,717 - INFO - Time since last plot: 129.54 ms
+2024-06-27 10:14:13,777 - INFO - Received 250 samples
+2024-06-27 10:14:13,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:13,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:13,838 - INFO - Time since last plot: 121.52 ms
+2024-06-27 10:14:13,902 - INFO - Received 250 samples
+2024-06-27 10:14:13,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:13,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:13,965 - INFO - Time since last plot: 127.06 ms
+2024-06-27 10:14:14,027 - INFO - Received 250 samples
+2024-06-27 10:14:14,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:14,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:14,084 - INFO - Time since last plot: 118.63 ms
+2024-06-27 10:14:14,152 - INFO - Received 250 samples
+2024-06-27 10:14:14,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:14,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:14,209 - INFO - Time since last plot: 124.87 ms
+2024-06-27 10:14:14,277 - INFO - Received 250 samples
+2024-06-27 10:14:14,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:14,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:14,334 - INFO - Time since last plot: 125.52 ms
+2024-06-27 10:14:14,402 - INFO - Received 250 samples
+2024-06-27 10:14:14,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:14,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:14,458 - INFO - Time since last plot: 123.50 ms
+2024-06-27 10:14:14,527 - INFO - Received 250 samples
+2024-06-27 10:14:14,528 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:14,528 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:14,587 - INFO - Time since last plot: 129.52 ms
+2024-06-27 10:14:14,652 - INFO - Received 250 samples
+2024-06-27 10:14:14,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:14,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:14,719 - INFO - Time since last plot: 131.53 ms
+2024-06-27 10:14:14,776 - INFO - Received 250 samples
+2024-06-27 10:14:14,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:14,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:14,840 - INFO - Time since last plot: 121.52 ms
+2024-06-27 10:14:14,902 - INFO - Received 250 samples
+2024-06-27 10:14:14,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:14,903 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:14,969 - INFO - Time since last plot: 129.03 ms
+2024-06-27 10:14:15,027 - INFO - Received 250 samples
+2024-06-27 10:14:15,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:15,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:15,086 - INFO - Time since last plot: 116.54 ms
+2024-06-27 10:14:15,152 - INFO - Received 250 samples
+2024-06-27 10:14:15,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:15,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:15,218 - INFO - Time since last plot: 132.55 ms
+2024-06-27 10:14:15,277 - INFO - Received 250 samples
+2024-06-27 10:14:15,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:15,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:15,338 - INFO - Time since last plot: 119.52 ms
+2024-06-27 10:14:15,402 - INFO - Received 250 samples
+2024-06-27 10:14:15,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:15,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:15,465 - INFO - Time since last plot: 127.04 ms
+2024-06-27 10:14:15,527 - INFO - Received 250 samples
+2024-06-27 10:14:15,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:15,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:15,588 - INFO - Time since last plot: 123.07 ms
+2024-06-27 10:14:15,652 - INFO - Received 250 samples
+2024-06-27 10:14:15,652 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:15,652 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:15,718 - INFO - Time since last plot: 129.61 ms
+2024-06-27 10:14:15,777 - INFO - Received 250 samples
+2024-06-27 10:14:15,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:15,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:15,837 - INFO - Time since last plot: 119.61 ms
+2024-06-27 10:14:15,902 - INFO - Received 250 samples
+2024-06-27 10:14:15,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:15,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:15,962 - INFO - Time since last plot: 124.63 ms
+2024-06-27 10:14:16,027 - INFO - Received 250 samples
+2024-06-27 10:14:16,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:16,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:16,098 - INFO - Time since last plot: 136.52 ms
+2024-06-27 10:14:16,152 - INFO - Received 250 samples
+2024-06-27 10:14:16,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:16,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:16,210 - INFO - Time since last plot: 111.40 ms
+2024-06-27 10:14:16,277 - INFO - Received 250 samples
+2024-06-27 10:14:16,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:16,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:16,338 - INFO - Time since last plot: 128.52 ms
+2024-06-27 10:14:16,402 - INFO - Received 250 samples
+2024-06-27 10:14:16,403 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:16,403 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:16,459 - INFO - Time since last plot: 121.03 ms
+2024-06-27 10:14:16,526 - INFO - Received 250 samples
+2024-06-27 10:14:16,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:16,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:16,587 - INFO - Time since last plot: 127.53 ms
+2024-06-27 10:14:16,653 - INFO - Received 250 samples
+2024-06-27 10:14:16,653 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:16,653 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:16,733 - INFO - Time since last plot: 146.53 ms
+2024-06-27 10:14:16,777 - INFO - Received 250 samples
+2024-06-27 10:14:16,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:16,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:16,837 - INFO - Time since last plot: 103.62 ms
+2024-06-27 10:14:16,902 - INFO - Received 250 samples
+2024-06-27 10:14:16,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:16,902 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:16,981 - INFO - Time since last plot: 142.58 ms
+2024-06-27 10:14:17,027 - INFO - Received 250 samples
+2024-06-27 10:14:17,028 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:17,028 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:17,099 - INFO - Time since last plot: 119.17 ms
+2024-06-27 10:14:17,154 - INFO - Received 250 samples
+2024-06-27 10:14:17,154 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:17,155 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:17,223 - INFO - Time since last plot: 124.54 ms
+2024-06-27 10:14:17,277 - INFO - Received 250 samples
+2024-06-27 10:14:17,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:17,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:17,347 - INFO - Time since last plot: 123.68 ms
+2024-06-27 10:14:17,402 - INFO - Received 250 samples
+2024-06-27 10:14:17,402 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:17,402 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:17,476 - INFO - Time since last plot: 129.14 ms
+2024-06-27 10:14:17,527 - INFO - Received 250 samples
+2024-06-27 10:14:17,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:17,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:17,591 - INFO - Time since last plot: 114.49 ms
+2024-06-27 10:14:17,662 - INFO - Received 250 samples
+2024-06-27 10:14:17,662 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:17,662 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:17,745 - INFO - Time since last plot: 154.55 ms
+2024-06-27 10:14:17,777 - INFO - Received 250 samples
+2024-06-27 10:14:17,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:17,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:17,838 - INFO - Time since last plot: 93.04 ms
+2024-06-27 10:14:17,902 - INFO - Received 250 samples
+2024-06-27 10:14:17,902 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:17,903 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:17,958 - INFO - Time since last plot: 120.03 ms
+2024-06-27 10:14:18,027 - INFO - Received 250 samples
+2024-06-27 10:14:18,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:18,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:18,084 - INFO - Time since last plot: 124.53 ms
+2024-06-27 10:14:18,153 - INFO - Received 250 samples
+2024-06-27 10:14:18,153 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:18,154 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:18,218 - INFO - Time since last plot: 135.14 ms
+2024-06-27 10:14:18,277 - INFO - Received 250 samples
+2024-06-27 10:14:18,277 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:18,277 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:18,346 - INFO - Time since last plot: 128.54 ms
+2024-06-27 10:14:18,402 - INFO - Received 250 samples
+2024-06-27 10:14:18,403 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:18,403 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:18,460 - INFO - Time since last plot: 114.04 ms
+2024-06-27 10:14:18,526 - INFO - Received 250 samples
+2024-06-27 10:14:18,527 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:18,527 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:18,592 - INFO - Time since last plot: 131.53 ms
+2024-06-27 10:14:18,653 - INFO - Received 250 samples
+2024-06-27 10:14:18,653 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:18,653 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:18,713 - INFO - Time since last plot: 120.52 ms
+2024-06-27 10:14:18,777 - INFO - Received 250 samples
+2024-06-27 10:14:18,777 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:18,777 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:18,849 - INFO - Time since last plot: 136.53 ms
+2024-06-27 10:14:18,903 - INFO - Received 250 samples
+2024-06-27 10:14:18,903 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:18,903 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:18,960 - INFO - Time since last plot: 110.72 ms
+2024-06-27 10:14:19,027 - INFO - Received 250 samples
+2024-06-27 10:14:19,027 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:19,027 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:19,083 - INFO - Time since last plot: 123.52 ms
+2024-06-27 10:14:19,152 - INFO - Received 250 samples
+2024-06-27 10:14:19,152 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:19,152 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:19,211 - INFO - Time since last plot: 127.54 ms
+2024-06-27 10:14:19,279 - INFO - Received 250 samples
+2024-06-27 10:14:19,279 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:19,279 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:19,346 - INFO - Time since last plot: 135.54 ms
+2024-06-27 10:14:19,402 - INFO - Received 250 samples
+2024-06-27 10:14:19,403 - INFO - Data successfully appended to channel 1
+2024-06-27 10:14:19,403 - INFO - Data successfully appended to channel 2
+2024-06-27 10:14:19,941 - INFO - Data log saved to clients/logs\data_log_20240627_101419.json

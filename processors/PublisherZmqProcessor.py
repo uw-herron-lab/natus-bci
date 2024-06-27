@@ -65,8 +65,6 @@ class PublisherZmqProcessor(BaseZmqProcessor):
         samplestamps_serialized = pickle.dumps(samplestamps)
 
         samples = np.array(samples)
-        print(samples)
-        
         samples_serialized = pickle.dumps(samples)
 
         self.pub_socket.send_multipart([self.pub_topic.encode(), samplestamps_serialized, samples_serialized])

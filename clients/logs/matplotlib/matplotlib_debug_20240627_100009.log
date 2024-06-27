@@ -1,0 +1,201 @@
+2024-06-27 10:00:09,733 - INFO - Starting plot with 2 channels
+2024-06-27 10:00:09,822 - INFO - Time since last plot: 282.18 ms
+2024-06-27 10:00:09,822 - INFO - Received 250 samples
+2024-06-27 10:00:09,823 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:09,823 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:09,901 - INFO - Time since last plot: 78.99 ms
+2024-06-27 10:00:09,902 - INFO - Received 250 samples
+2024-06-27 10:00:09,902 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:09,903 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,045 - INFO - Time since last plot: 143.85 ms
+2024-06-27 10:00:10,046 - INFO - Received 250 samples
+2024-06-27 10:00:10,046 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,046 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,101 - INFO - Time since last plot: 56.14 ms
+2024-06-27 10:00:10,102 - INFO - Received 250 samples
+2024-06-27 10:00:10,102 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,102 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,160 - INFO - Time since last plot: 57.68 ms
+2024-06-27 10:00:10,160 - INFO - Received 250 samples
+2024-06-27 10:00:10,161 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,161 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,228 - INFO - Time since last plot: 69.78 ms
+2024-06-27 10:00:10,277 - INFO - Received 250 samples
+2024-06-27 10:00:10,278 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,278 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,338 - INFO - Time since last plot: 109.71 ms
+2024-06-27 10:00:10,401 - INFO - Received 250 samples
+2024-06-27 10:00:10,401 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,401 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,456 - INFO - Time since last plot: 118.37 ms
+2024-06-27 10:00:10,529 - INFO - Received 250 samples
+2024-06-27 10:00:10,529 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,529 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,592 - INFO - Time since last plot: 135.49 ms
+2024-06-27 10:00:10,653 - INFO - Received 250 samples
+2024-06-27 10:00:10,653 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,653 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,721 - INFO - Time since last plot: 129.37 ms
+2024-06-27 10:00:10,777 - INFO - Received 250 samples
+2024-06-27 10:00:10,777 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,777 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,832 - INFO - Time since last plot: 110.27 ms
+2024-06-27 10:00:10,902 - INFO - Received 250 samples
+2024-06-27 10:00:10,902 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,902 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:10,956 - INFO - Time since last plot: 124.12 ms
+2024-06-27 10:00:11,027 - INFO - Received 250 samples
+2024-06-27 10:00:11,027 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,027 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,089 - INFO - Time since last plot: 133.28 ms
+2024-06-27 10:00:11,151 - INFO - Received 250 samples
+2024-06-27 10:00:11,151 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,153 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,221 - INFO - Time since last plot: 131.91 ms
+2024-06-27 10:00:11,276 - INFO - Received 250 samples
+2024-06-27 10:00:11,276 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,277 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,331 - INFO - Time since last plot: 110.22 ms
+2024-06-27 10:00:11,402 - INFO - Received 250 samples
+2024-06-27 10:00:11,402 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,402 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,468 - INFO - Time since last plot: 137.25 ms
+2024-06-27 10:00:11,527 - INFO - Received 250 samples
+2024-06-27 10:00:11,527 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,528 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,582 - INFO - Time since last plot: 113.62 ms
+2024-06-27 10:00:11,652 - INFO - Received 250 samples
+2024-06-27 10:00:11,652 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,652 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,711 - INFO - Time since last plot: 129.32 ms
+2024-06-27 10:00:11,777 - INFO - Received 250 samples
+2024-06-27 10:00:11,777 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,777 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,845 - INFO - Time since last plot: 133.65 ms
+2024-06-27 10:00:11,901 - INFO - Received 250 samples
+2024-06-27 10:00:11,907 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,907 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:11,976 - INFO - Time since last plot: 131.32 ms
+2024-06-27 10:00:12,027 - INFO - Received 250 samples
+2024-06-27 10:00:12,027 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,027 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,082 - INFO - Time since last plot: 105.39 ms
+2024-06-27 10:00:12,152 - INFO - Received 250 samples
+2024-06-27 10:00:12,152 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,152 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,209 - INFO - Time since last plot: 126.40 ms
+2024-06-27 10:00:12,276 - INFO - Received 250 samples
+2024-06-27 10:00:12,276 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,276 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,331 - INFO - Time since last plot: 123.35 ms
+2024-06-27 10:00:12,401 - INFO - Received 250 samples
+2024-06-27 10:00:12,401 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,401 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,466 - INFO - Time since last plot: 134.67 ms
+2024-06-27 10:00:12,526 - INFO - Received 250 samples
+2024-06-27 10:00:12,527 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,527 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,585 - INFO - Time since last plot: 118.48 ms
+2024-06-27 10:00:12,652 - INFO - Received 250 samples
+2024-06-27 10:00:12,652 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,652 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,708 - INFO - Time since last plot: 123.68 ms
+2024-06-27 10:00:12,777 - INFO - Received 250 samples
+2024-06-27 10:00:12,777 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,777 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,836 - INFO - Time since last plot: 128.06 ms
+2024-06-27 10:00:12,901 - INFO - Received 250 samples
+2024-06-27 10:00:12,901 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,901 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:12,958 - INFO - Time since last plot: 121.26 ms
+2024-06-27 10:00:13,027 - INFO - Received 250 samples
+2024-06-27 10:00:13,027 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,027 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,091 - INFO - Time since last plot: 133.26 ms
+2024-06-27 10:00:13,151 - INFO - Received 250 samples
+2024-06-27 10:00:13,151 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,153 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,209 - INFO - Time since last plot: 118.59 ms
+2024-06-27 10:00:13,277 - INFO - Received 250 samples
+2024-06-27 10:00:13,277 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,277 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,333 - INFO - Time since last plot: 123.40 ms
+2024-06-27 10:00:13,402 - INFO - Received 250 samples
+2024-06-27 10:00:13,402 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,402 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,481 - INFO - Time since last plot: 148.19 ms
+2024-06-27 10:00:13,529 - INFO - Received 250 samples
+2024-06-27 10:00:13,530 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,530 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,591 - INFO - Time since last plot: 109.58 ms
+2024-06-27 10:00:13,651 - INFO - Received 250 samples
+2024-06-27 10:00:13,651 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,651 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,709 - INFO - Time since last plot: 118.40 ms
+2024-06-27 10:00:13,777 - INFO - Received 250 samples
+2024-06-27 10:00:13,777 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,777 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,840 - INFO - Time since last plot: 130.81 ms
+2024-06-27 10:00:13,902 - INFO - Received 250 samples
+2024-06-27 10:00:13,902 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,902 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:13,957 - INFO - Time since last plot: 117.40 ms
+2024-06-27 10:00:14,027 - INFO - Received 250 samples
+2024-06-27 10:00:14,027 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,027 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,083 - INFO - Time since last plot: 126.13 ms
+2024-06-27 10:00:14,152 - INFO - Received 250 samples
+2024-06-27 10:00:14,152 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,152 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,207 - INFO - Time since last plot: 124.03 ms
+2024-06-27 10:00:14,280 - INFO - Received 250 samples
+2024-06-27 10:00:14,280 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,280 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,336 - INFO - Time since last plot: 128.92 ms
+2024-06-27 10:00:14,402 - INFO - Received 250 samples
+2024-06-27 10:00:14,402 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,402 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,461 - INFO - Time since last plot: 124.96 ms
+2024-06-27 10:00:14,527 - INFO - Received 250 samples
+2024-06-27 10:00:14,527 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,527 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,583 - INFO - Time since last plot: 121.88 ms
+2024-06-27 10:00:14,652 - INFO - Received 250 samples
+2024-06-27 10:00:14,652 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,652 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,713 - INFO - Time since last plot: 129.72 ms
+2024-06-27 10:00:14,777 - INFO - Received 250 samples
+2024-06-27 10:00:14,777 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,777 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,836 - INFO - Time since last plot: 123.05 ms
+2024-06-27 10:00:14,901 - INFO - Received 250 samples
+2024-06-27 10:00:14,901 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,901 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:14,954 - INFO - Time since last plot: 118.39 ms
+2024-06-27 10:00:15,027 - INFO - Received 250 samples
+2024-06-27 10:00:15,027 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,027 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,091 - INFO - Time since last plot: 136.33 ms
+2024-06-27 10:00:15,152 - INFO - Received 250 samples
+2024-06-27 10:00:15,152 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,152 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,205 - INFO - Time since last plot: 114.92 ms
+2024-06-27 10:00:15,277 - INFO - Received 250 samples
+2024-06-27 10:00:15,277 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,277 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,330 - INFO - Time since last plot: 124.68 ms
+2024-06-27 10:00:15,402 - INFO - Received 250 samples
+2024-06-27 10:00:15,402 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,402 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,459 - INFO - Time since last plot: 128.56 ms
+2024-06-27 10:00:15,527 - INFO - Received 250 samples
+2024-06-27 10:00:15,527 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,527 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,584 - INFO - Time since last plot: 124.94 ms
+2024-06-27 10:00:15,652 - INFO - Received 250 samples
+2024-06-27 10:00:15,652 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,652 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,715 - INFO - Time since last plot: 131.64 ms
+2024-06-27 10:00:15,777 - INFO - Received 250 samples
+2024-06-27 10:00:15,778 - INFO - Data successfully appended to channel data arrays
+2024-06-27 10:00:15,778 - INFO - Data successfully appended to channel data arrays
