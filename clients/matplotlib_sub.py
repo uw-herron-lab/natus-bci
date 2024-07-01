@@ -4,12 +4,12 @@ from client_sub import ClientSub
 import time
 import logging
 import json
-from utils import get_unique_filename, setup_logging
+from utils import get_unique_filename, setup_logging, time_to_float
 import numpy as np
 
 # Define constants for file paths
-DEBUG_LOG_FILE = 'clients/logs/matplotlib/matplotlib_debug.log'
-DATA_LOG_FILE = 'clients/logs/matplotlib/data_log.json'
+DEBUG_LOG_FILE = 'clients/logs/matplotlib/debug.log'
+DATA_LOG_FILE = 'clients/logs/matplotlib/data.json'
 
 # Setup logging
 setup_logging(DEBUG_LOG_FILE)
@@ -24,16 +24,22 @@ class MatPlotLibSub(ClientSub):
 
     def update_plot(self, frame, axs):
         try:
-            # Measure time from the last call in milliseconds
-            self.last_time = self.curr_time
-            self.curr_time = time.time()
-            time_since_last_plot = (self.curr_time - self.last_time) * 1000
-            logging.info("Time since last plot: %.2f ms", time_since_last_plot)
-
-            samplestamps, samples = self.get_data()
+            samplestamps, samples, timestamp = self.get_data()
 
             logging.info("Received %d samples", len(samples))
             self.data_log["samplestamps"].extend(samplestamps)
+            
+            # Measure time from the last call in milliseconds
+            self.last_time = self.curr_time
+            self.curr_time = time.time()
+            
+            time_since_last_plot = (self.curr_time - self.last_time) * 1000
+            logging.info("Time since last plot: %.2f ms", time_since_last_plot)
+
+            time_since_last_data = (self.curr_time - timestamp) * 1000
+            # logging.info("Current time: %f ms", self.curr_time)
+            # logging.info("Timestamp: %f ms", timestamp)
+            logging.info("Time to receive batch data from first subscriber: %f ms", time_since_last_data)
 
             for i in range(self.n_channels):
                 self.data_log[f"channel_{i+1}"].extend(samples[:, i])

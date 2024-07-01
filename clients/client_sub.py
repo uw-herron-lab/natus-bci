@@ -20,14 +20,15 @@ class ClientSub():
 
     def get_data(self):
         try:
-            topic, samplestamps, samples = self.sub_socket.recv_multipart()
+            topic, samplestamps, samples, timestamp = self.sub_socket.recv_multipart()
 
             samplestamps = pickle.loads(samplestamps)
             samples = pickle.loads(samples)
+            timestamp = struct.unpack('d', timestamp)[0]
             
             # print(f"Received data for topic '{topic.decode()}': {data}")
             
-            return samplestamps, samples
+            return samplestamps, samples, timestamp
         except Exception as e:
             print(f"Error fetching data: {e}")
             return None

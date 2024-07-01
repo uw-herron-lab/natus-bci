@@ -4,6 +4,7 @@ import zmq
 from zmq import Socket
 import pickle
 from BaseZmqProcessor import BaseZmqProcessor
+import struct
 
 class PublisherZmqProcessor(BaseZmqProcessor):
     """Notes:
@@ -60,6 +61,9 @@ class PublisherZmqProcessor(BaseZmqProcessor):
         ###################################
 
         ### Example: Publish the data to a different topic ###
+        current_time = time.time()
+        print(current_time)
+        current_time = struct.pack("d", current_time)
 
         samplestamps = np.array(samplestamps)
         samplestamps_serialized = pickle.dumps(samplestamps)
@@ -67,7 +71,7 @@ class PublisherZmqProcessor(BaseZmqProcessor):
         samples = np.array(samples)
         samples_serialized = pickle.dumps(samples)
 
-        self.pub_socket.send_multipart([self.pub_topic.encode(), samplestamps_serialized, samples_serialized])
+        self.pub_socket.send_multipart([self.pub_topic.encode(), samplestamps_serialized, samples_serialized, current_time])
         print("Sent samplestamps and samples!")
                 
         # measure time from the last call in milliseconds
