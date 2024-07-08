@@ -31,8 +31,10 @@ while running:
         data = samples[:, 0] # get data from the first channel
         
         # Change color of the square if the mean of the data is past a threshold
+        mean = np.mean(data)
+        # print(mean)
         threshold = .5
-        if np.mean(data) > threshold:
+        if np.mean(mean) > threshold:
             print('Change!')
             color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
     except:

@@ -1,5 +1,6 @@
 import os
 from datetime import datetime
+import logging
 
 def get_unique_filename(base_filename):
     """
@@ -26,3 +27,16 @@ def get_unique_filename(base_filename):
         counter += 1
     
     return unique_filename
+
+# Configure logging
+def setup_logging(log_file_base: str, log_level=logging.INFO) -> None:
+    unique_log_file = get_unique_filename(log_file_base)
+    logging.basicConfig(
+        filename=unique_log_file,
+        level=log_level,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
+
+def time_to_float(time_str):
+    hours, minutes, seconds = map(int, time_str.split(':'))
+    return hours + minutes/60 + seconds/3600
