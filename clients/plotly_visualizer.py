@@ -8,7 +8,7 @@ from plotly.subplots import make_subplots
 from client_sub import ClientSub
 
 # Plotly/Dash-based Subscriber for Real-Time Plotting
-class PlotlyDashSub(ClientSub):
+class PlotlyDash(ClientSub):
     def __init__(self, sub_ip="localhost", sub_port=1000, sub_topic="ProcessedData", n_channels : int = 1):
         super().__init__(sub_ip, sub_port, sub_topic)
         
@@ -76,5 +76,5 @@ class PlotlyDashSub(ClientSub):
         self.app.run_server(debug=True, use_reloader=False)  # use_reloader=False to avoid multiple instances
 
 if __name__ == "__main__":
-    subscriber = PlotlyDashSub(n_channels=2)
+    subscriber = PlotlyDash(n_channels=2)
     subscriber.plot_data()
