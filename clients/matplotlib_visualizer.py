@@ -8,14 +8,14 @@ from utils import get_unique_filename, setup_logging, time_to_float
 import numpy as np
 
 # Define constants for file paths
-DEBUG_LOG_FILE = 'clients/logs/matplotlib/debug.log'
-DATA_LOG_FILE = 'clients/logs/matplotlib/data.json'
+DEBUG_LOG_FILE = 'clients/logs/matplotlib_visualizer/debug.log'
+DATA_LOG_FILE = 'clients/logs/matplotlib_visualizer/data.json'
 
 # Setup logging
 setup_logging(DEBUG_LOG_FILE)
 
 # Plots the data received from the subscriber in matplotlib
-class MatPlotLibSub(ClientSub):
+class MatPlotLibViz(ClientSub):
     def __init__(self, sub_ip="localhost", sub_port=1000, sub_topic="ProcessedData"):
         super().__init__(sub_ip, sub_port, sub_topic)
         self.curr_time = time.time()
@@ -93,5 +93,5 @@ class MatPlotLibSub(ClientSub):
         logging.info("Data log saved to %s", unique_data_log_file)
 
 if __name__ == "__main__":
-    subscriber = MatPlotLibSub()
+    subscriber = MatPlotLibViz()
     subscriber.plot_data(2)
