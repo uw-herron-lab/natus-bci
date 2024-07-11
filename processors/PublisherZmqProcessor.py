@@ -13,7 +13,7 @@ class PublisherZmqProcessor(BaseZmqProcessor):
         - If you wish to change the class/file name, be sure to call the subscriber with `--class YourNewName`
     """
     
-    def __init__(self, sub_ip = "localhost", batch_size: int = 1, info_port: int = 5597, event_port: int = 5598, pub_port: int = 1000, pub_topic : str = "ProcessedData"):
+    def __init__(self, sub_ip = "localhost", batch_size: int = 1, info_port: int = 5597, event_port: int = 5598, pub_port: int = 6000, rep_port: int = 6001, pub_topic : str = "ProcessedData"):
         """Class constructor
         Args:
             sub_ip (str, optional): IP addr of the data source. Defaults to "localhost".
@@ -33,6 +33,10 @@ class PublisherZmqProcessor(BaseZmqProcessor):
         self.pub_socket: Socket = self.context.socket(zmq.PUB)
         self.setupPublisher(self.pub_socket, self.pub_port, self.pub_topic)
 
+        self.rep_port = rep_port
+        self.rep_socket: Socket = self.context.socket(zmq.REP)
+        self.setupReplier(self.rep_socket, self.rep_port)
+
     def setupPublisher(self, socket: zmq.Socket, pub_port: int, pub_topic: str):
         """Bind a PUBlisher to a given port, and print PUB info
 
@@ -44,6 +48,17 @@ class PublisherZmqProcessor(BaseZmqProcessor):
         url = "tcp://*:{}".format(pub_port)
         socket.bind(url)
         print("Publishing to topic {} on: {}".format(pub_topic, url))
+
+    def setupReplier(self, socket: zmq.Socket, rep_port: int):
+        """Bind a REPlier to a given port, and print REP info
+
+        Args:
+            socket (Socket): ZeroMQ socket to reply to
+            rep_port (int): port to reply to
+        """
+        url = "tcp://*:{}".format(rep_port)
+        socket.bind(url)
+        print("Replying on: {}".format(url))
 
     def process(self, n_channels, samplestamps, samples):
         """This function will receive `M x N` array of sample data
@@ -60,9 +75,19 @@ class PublisherZmqProcessor(BaseZmqProcessor):
         # YOUR BATCH PROCESSING GOES HERE #
         ###################################
 
+        try:
+            req = self.rep_socket.recv(flags=zmq.NOBLOCK)
+            print("Received request!")
+            if  req.decode() == "get_channel_names":
+                info = self.request_info(self.info_socket)
+                ch_names = '\n'.join(info['channelNames'])
+                self.rep_socket.send_string(ch_names)
+                print("Sent channel names!")
+        except:
+            print("No request yet")
+
         ### Example: Publish the data to a different topic ###
         current_time = time.time()
-        print(current_time)
         current_time = struct.pack("d", current_time)
 
         samplestamps = np.array(samplestamps)
