@@ -20,9 +20,10 @@ cue_foot = visual.TextStim(win, text="Foot", color="white", pos=(0, -0.5))
 n_trials = 30
 trial_duration = 4  # seconds
 rest_duration = 2  # seconds
-cues = [cue_left, cue_right, cue_foot]
+# cues = [cue_left, cue_right, cue_foot]
+cues = [cue_left, cue_right]
 
-DATA_LOG_FILE = 'clients/logs/motor_imagery/data.json'
+DATA_LOG_FILE = 'logs/motor_imagery/data.json'
 unique_data_log_file = get_unique_filename(DATA_LOG_FILE)
 subscriber = ClientSub(sub_ip="localhost", sub_port=1000, sub_topic="ProcessedData")
 
