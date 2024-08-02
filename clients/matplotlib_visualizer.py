@@ -130,7 +130,7 @@ if __name__ == "__main__":
     writer_thread.start()
     
     try: 
-        visualizer.plot_data(10, sep=1e3, win_size=2000)
+        visualizer.plot_data(10, sep=1e-3, win_size=2000)
     finally:
         visualizer.queue.put(None)  # Signal the writer thread to exit
         writer_thread.join()
