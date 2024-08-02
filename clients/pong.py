@@ -2,6 +2,7 @@ import pygame
 import random
 from client_sub import ClientSub
 import numpy as np
+import pickle
 
 # Initialize Pygame
 pygame.init()
@@ -42,24 +43,42 @@ player_velocity = 10
 clock = pygame.time.Clock()
 
 # Setup ClientSub for data
-clientSub = ClientSub(sub_port=1000)
+clientSub = ClientSub(sub_port=6000)
+
+# Load CSP filters and trained ML model 
+filters = np.load('../notebooks/models/csp_filters.npy')
+model_filename = '../notebooks/models/MI_model.pkl'
+
+with open(model_filename, 'rb') as file:
+    loaded_model = pickle.load(file)
 
 # Main game loop
 running = True
-threshold = 800  # Threshold for moving the paddle up based on data
 while running:
     try:
         samplestamps, samples, _ = clientSub.get_data()
         data = samples[:, 0]  # Get data from the first channel
+
+        filtered_data = np.dot(filters, samples)
+        features = np.log(np.var(filtered_data, axis=1))
+        features = features.reshape(1, -1)
         
-        # Move the player paddle up if the mean of the data exceeds the threshold
-        mean = np.mean(data)
-        if mean > threshold:
+        ### Control the player paddle based on LDA model predictions###
+        pred = loaded_model.predict(features)
+        
+        if pred == 0:
             print("Move up!")
             player_paddle.y -= player_velocity
             # Ensure the paddle doesn't go off the screen
             if player_paddle.top < 0:
                 player_paddle.top = 0
+        elif pred == 1:
+            print("Move down!")
+            player_paddle.y += player_velocity
+            # Ensure the paddle doesn't go off the screen
+            if player_paddle.bottom > height:
+                player_paddle.bottom = height
+            
     except Exception as e:
         print("Did not get data :(", e)
 
