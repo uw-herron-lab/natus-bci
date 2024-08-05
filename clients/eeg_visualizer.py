@@ -18,7 +18,7 @@ setup_logging(DEBUG_LOG_FILE)
 # Plots the data received from the subscriber in matplotlib
 
 
-class MatPlotLibViz(ClientSub):
+class EEGVizualizer(ClientSub):
     def __init__(self, sub_ip="localhost", sub_port=6000, req_port=6001,
                  sub_topic="ProcessedData"):
         super().__init__(sub_ip, sub_port, req_port, sub_topic)
@@ -119,7 +119,6 @@ class MatPlotLibViz(ClientSub):
             logging.error("Plotting error: %s", str(e))
             print("Subscriber stopped by user")
 
-        self.save_data_log()
 
     def save_data_log(self):
         csv_file = get_unique_filename(DATA_LOG_FILE)
@@ -146,7 +145,7 @@ class MatPlotLibViz(ClientSub):
 
 
 if __name__ == "__main__":
-    visualizer = MatPlotLibViz()
+    visualizer = EEGVizualizer()
 
     writer_thread = threading.Thread(target=visualizer.save_data_log)
     writer_thread.start()
