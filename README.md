@@ -1,4 +1,4 @@
-# GRIDLab Natus Interface
+# Realtime EEG Data Streaming and Processing With Natus API
 
 These scripts are complementary to the `nw-sdk-realtime` repository, to obtain an NDA with Natus Medical, Inc., please contact Natus Medical, Inc. at [sdk@natus.com] along with your name, title, entity/institution and email address. 
 
