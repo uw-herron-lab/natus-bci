@@ -31,29 +31,35 @@ class MatPlotLibViz(ClientSub):
 
     def update_plot(self, frame, ax, sep, win_size):
         try:
+            start_get_data_time = time.time()
             samplestamps, samples, timestamp = self.get_data()
+            end_get_data_time = time.time()
+
             data_log = {}
 
             logging.info("Received %d samples", len(samples))
             data_log["samplestamps"] = samplestamps
             
+            logging.info("Time it takes to pull data: %f ms",  end_get_data_time - start_get_data_time)
+
             # Measure time from the last call in milliseconds
             self.last_time = self.curr_time
             self.curr_time = time.time()
             
             time_since_last_plot = (self.curr_time - self.last_time) * 1000
-            logging.info("Time since last plot: %.2f ms", time_since_last_plot)
+            logging.info("Total time since previous plot iteration: %.2f ms", time_since_last_plot)
 
             time_since_last_data = (self.curr_time - timestamp) * 1000
-            logging.info("Time to receive batch data from first subscriber: %f ms", time_since_last_data)
+            logging.info("Time delay between first and second subscriber: %f ms", time_since_last_data)
 
             if samples.shape[1] < self.n_channels:
                 raise ValueError("Trying to plot more channels than there are in the data")
 
+            start_plot_data_time = time.time()
             for i in range(self.n_channels):
                 data_log[self.ch_names[i]] = samples[:, i]
                 self.ch_data[self.ch_names[i]].extend(samples[:, i] + i*sep) 
-                logging.info(f"Data successfully appended to {self.ch_names[i]}")
+                # logging.info(f"Data successfully appended to {self.ch_names[i]}")
 
                 # Limit window size
                 if len(self.ch_data[self.ch_names[i]]) > win_size:
@@ -65,6 +71,13 @@ class MatPlotLibViz(ClientSub):
             ax.relim()
             ax.autoscale_view(True, True, True)
             ax.legend()
+            ax.tick_params(axis='y', labelleft=False)
+            ax.set_xlabel("Samples")
+            ax.set_ylabel("Amplitude")
+
+            end_plot_data_time = time.time()
+
+            logging.info("Time it takes to plot data: %f ms", end_plot_data_time - start_plot_data_time)
 
             self.queue.put(data_log)
             print("Got Data!")
@@ -130,7 +143,7 @@ if __name__ == "__main__":
     writer_thread.start()
     
     try: 
-        visualizer.plot_data(10, sep=1e-3, win_size=2000)
+        visualizer.plot_data(n_channels=8, sep=1e-4, win_size=2000)
     finally:
         visualizer.queue.put(None)  # Signal the writer thread to exit
         writer_thread.join()
