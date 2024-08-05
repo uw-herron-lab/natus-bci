@@ -1,26 +1,40 @@
-import json
 import time
-from psychopy import visual, core, event, gui
 import random
 import threading
-from client_sub import ClientSub
-from utils import get_unique_filename
-import numpy as np
 import csv
 import queue
+from psychopy import visual, core, event
+from client_sub import ClientSub
+from utils import get_unique_filename
 
 # Setup experiment window
 win = visual.Window(fullscr=False, color="black", units="norm")
 
 # Create stimuli
-instructions = visual.TextStim(win, text="Imagine performing the action shown.\n\nPress space to start and q to stop.", color="white")
-fixation = visual.TextStim(win, text="+", color="white")
+instructions = visual.TextStim(win,
+                               text="Imagine performing the action shown.\n\nPress space to start and q to stop.",
+                               color="white")
 
-cue_left = visual.TextStim(win, text="Left Hand", color="white", pos=(-0.5, 0))
-left_hand_image = visual.ImageStim(win, image="photos/left_hand.jpg", pos=(-0.5, 0.25), size=(0.7, 0.7), ori=90)
+fixation = visual.TextStim(win, text="+",
+                           color="white")
 
-cue_right = visual.TextStim(win, text="Right Hand", color="white", pos=(0.5, 0))
-right_hand_image = visual.ImageStim(win, image="photos/right_hand.jpg", pos=(0.5, 0.25), size=(0.7, 0.7), ori=90)
+cue_left = visual.TextStim(win, text="Left Hand",
+                           color="white",
+                           pos=(-0.5, 0))
+
+left_hand_image = visual.ImageStim(win, image="photos/left_hand.jpg",
+                                   pos=(-0.5, 0.25),
+                                   size=(0.7, 0.7),
+                                   ori=90)
+
+cue_right = visual.TextStim(win, text="Right Hand",
+                            color="white",
+                            pos=(0.5, 0))
+
+right_hand_image = visual.ImageStim(win, image="photos/right_hand.jpg",
+                                    pos=(0.5, 0.25),
+                                    size=(0.7, 0.7),
+                                    ori=90)
 
 # Experiment parameters
 n_trials = 30
@@ -42,22 +56,22 @@ q = queue.Queue()
 
 stimuli = None
 
-def get_data():
-    global data, stimuli
 
+def get_data():
     while True:
         try:
             samplestamps, samples, _ = subscriber.get_data()
             with data_lock:
                 data["samplestamps"] = samplestamps.tolist()
                 data["stim"] = [stimuli] * len(samplestamps)
-                for ch in subscriber.ch_names:
-                    data[ch] = samples[:, subscriber.ch_names.index(ch)].tolist()
+                for ch in ch_names:
+                    data[ch] = samples[:, ch_names.index(ch)].tolist()
                 q.put(data)
         except Exception as e:
             raise e
-        
+
         time.sleep(0.1)  # Adjust this sleep interval as needed
+
 
 def save_data_log():
     csv_file = get_unique_filename(DATA_LOG_FILE)
@@ -74,13 +88,14 @@ def save_data_log():
             data = q.get()
             if data is None:
                 break
-            
+
             num_rows = len(next(iter(data.values())))
             for i in range(num_rows):
                 row = {key: value[i] for key, value in data.items()}
                 writer.writerow(row)
 
             q.task_done()
+
 
 # Start the data acquisition thread
 data_thread = threading.Thread(target=get_data)
@@ -110,7 +125,7 @@ for trial in range(n_trials):
     win.flip()
     stimuli = "fixation"
     core.wait(rest_duration)
-    
+
     # Show cue
     cue_image, cue_text = random.choice(cues)
     cue_image.draw()
@@ -128,7 +143,7 @@ for trial in range(n_trials):
 
     # Record response time if space was pressed
     if keys and 'space' in keys:
-        rt = trial_clock.getTime()    
+        rt = trial_clock.getTime()
         print(f"Trial {trial+1}: Time elapsed {rt:.2f}s")
     else:
         print(f"Trial {trial+1}: Trial Finished")
