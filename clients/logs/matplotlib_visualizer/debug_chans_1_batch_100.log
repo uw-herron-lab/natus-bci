@@ -1,0 +1,306 @@
+2024-08-02 12:01:30,780 - INFO - Starting plot with 1 channels
+2024-08-02 12:01:30,782 - INFO - Received 100 samples
+2024-08-02 12:01:30,782 - INFO - Time it takes to pull data: 0.000000 ms
+2024-08-02 12:01:30,782 - INFO - Total time since previous plot iteration: 308.94 ms
+2024-08-02 12:01:30,783 - INFO - Time delay between first and second subscriber: 152.908564 ms
+2024-08-02 12:01:30,785 - INFO - Time it takes to plot data: 0.001997 ms
+2024-08-02 12:01:30,824 - INFO - Received 100 samples
+2024-08-02 12:01:30,824 - INFO - Time it takes to pull data: 0.000000 ms
+2024-08-02 12:01:30,833 - INFO - Total time since previous plot iteration: 51.52 ms
+2024-08-02 12:01:30,833 - INFO - Time delay between first and second subscriber: 142.799854 ms
+2024-08-02 12:01:30,835 - INFO - Time it takes to plot data: 0.002004 ms
+2024-08-02 12:01:30,908 - INFO - Received 100 samples
+2024-08-02 12:01:30,908 - INFO - Time it takes to pull data: 0.000999 ms
+2024-08-02 12:01:30,908 - INFO - Total time since previous plot iteration: 74.90 ms
+2024-08-02 12:01:30,908 - INFO - Time delay between first and second subscriber: 22.034883 ms
+2024-08-02 12:01:30,909 - INFO - Time it takes to plot data: 0.000966 ms
+2024-08-02 12:01:31,085 - INFO - Received 100 samples
+2024-08-02 12:01:31,085 - INFO - Time it takes to pull data: 0.128891 ms
+2024-08-02 12:01:31,085 - INFO - Total time since previous plot iteration: 176.40 ms
+2024-08-02 12:01:31,085 - INFO - Time delay between first and second subscriber: 0.943184 ms
+2024-08-02 12:01:31,087 - INFO - Time it takes to plot data: 0.002032 ms
+2024-08-02 12:01:31,280 - INFO - Received 100 samples
+2024-08-02 12:01:31,280 - INFO - Time it takes to pull data: 0.183805 ms
+2024-08-02 12:01:31,280 - INFO - Total time since previous plot iteration: 194.84 ms
+2024-08-02 12:01:31,280 - INFO - Time delay between first and second subscriber: 0.998020 ms
+2024-08-02 12:01:31,283 - INFO - Time it takes to plot data: 0.002999 ms
+2024-08-02 12:01:31,472 - INFO - Received 100 samples
+2024-08-02 12:01:31,472 - INFO - Time it takes to pull data: 0.176961 ms
+2024-08-02 12:01:31,472 - INFO - Total time since previous plot iteration: 192.96 ms
+2024-08-02 12:01:31,472 - INFO - Time delay between first and second subscriber: 0.963449 ms
+2024-08-02 12:01:31,476 - INFO - Time it takes to plot data: 0.003042 ms
+2024-08-02 12:01:31,671 - INFO - Received 100 samples
+2024-08-02 12:01:31,671 - INFO - Time it takes to pull data: 0.179531 ms
+2024-08-02 12:01:31,671 - INFO - Total time since previous plot iteration: 198.54 ms
+2024-08-02 12:01:31,672 - INFO - Time delay between first and second subscriber: 0.961542 ms
+2024-08-02 12:01:31,674 - INFO - Time it takes to plot data: 0.002032 ms
+2024-08-02 12:01:31,866 - INFO - Received 100 samples
+2024-08-02 12:01:31,866 - INFO - Time it takes to pull data: 0.176144 ms
+2024-08-02 12:01:31,866 - INFO - Total time since previous plot iteration: 195.15 ms
+2024-08-02 12:01:31,866 - INFO - Time delay between first and second subscriber: 1.005888 ms
+2024-08-02 12:01:31,869 - INFO - Time it takes to plot data: 0.003028 ms
+2024-08-02 12:01:32,062 - INFO - Received 100 samples
+2024-08-02 12:01:32,062 - INFO - Time it takes to pull data: 0.173103 ms
+2024-08-02 12:01:32,062 - INFO - Total time since previous plot iteration: 196.10 ms
+2024-08-02 12:01:32,063 - INFO - Time delay between first and second subscriber: 0.963926 ms
+2024-08-02 12:01:32,066 - INFO - Time it takes to plot data: 0.002999 ms
+2024-08-02 12:01:32,259 - INFO - Received 100 samples
+2024-08-02 12:01:32,259 - INFO - Time it takes to pull data: 0.175143 ms
+2024-08-02 12:01:32,259 - INFO - Total time since previous plot iteration: 197.24 ms
+2024-08-02 12:01:32,259 - INFO - Time delay between first and second subscriber: 0.965834 ms
+2024-08-02 12:01:32,263 - INFO - Time it takes to plot data: 0.003031 ms
+2024-08-02 12:01:32,452 - INFO - Received 100 samples
+2024-08-02 12:01:32,452 - INFO - Time it takes to pull data: 0.173085 ms
+2024-08-02 12:01:32,452 - INFO - Total time since previous plot iteration: 192.01 ms
+2024-08-02 12:01:32,453 - INFO - Time delay between first and second subscriber: 0.964165 ms
+2024-08-02 12:01:32,456 - INFO - Time it takes to plot data: 0.003034 ms
+2024-08-02 12:01:32,645 - INFO - Received 100 samples
+2024-08-02 12:01:32,645 - INFO - Time it takes to pull data: 0.169261 ms
+2024-08-02 12:01:32,646 - INFO - Total time since previous plot iteration: 194.26 ms
+2024-08-02 12:01:32,646 - INFO - Time delay between first and second subscriber: 1.963615 ms
+2024-08-02 12:01:32,648 - INFO - Time it takes to plot data: 0.002035 ms
+2024-08-02 12:01:32,843 - INFO - Received 100 samples
+2024-08-02 12:01:32,843 - INFO - Time it takes to pull data: 0.171479 ms
+2024-08-02 12:01:32,843 - INFO - Total time since previous plot iteration: 197.48 ms
+2024-08-02 12:01:32,843 - INFO - Time delay between first and second subscriber: 0.966549 ms
+2024-08-02 12:01:32,846 - INFO - Time it takes to plot data: 0.003036 ms
+2024-08-02 12:01:33,038 - INFO - Received 100 samples
+2024-08-02 12:01:33,038 - INFO - Time it takes to pull data: 0.175229 ms
+2024-08-02 12:01:33,038 - INFO - Total time since previous plot iteration: 195.23 ms
+2024-08-02 12:01:33,038 - INFO - Time delay between first and second subscriber: 1.011610 ms
+2024-08-02 12:01:33,042 - INFO - Time it takes to plot data: 0.003034 ms
+2024-08-02 12:01:33,233 - INFO - Received 100 samples
+2024-08-02 12:01:33,233 - INFO - Time it takes to pull data: 0.174548 ms
+2024-08-02 12:01:33,233 - INFO - Total time since previous plot iteration: 194.54 ms
+2024-08-02 12:01:33,233 - INFO - Time delay between first and second subscriber: 0.963688 ms
+2024-08-02 12:01:33,236 - INFO - Time it takes to plot data: 0.002627 ms
+2024-08-02 12:01:33,429 - INFO - Received 100 samples
+2024-08-02 12:01:33,429 - INFO - Time it takes to pull data: 0.174596 ms
+2024-08-02 12:01:33,430 - INFO - Total time since previous plot iteration: 197.18 ms
+2024-08-02 12:01:33,430 - INFO - Time delay between first and second subscriber: 1.966715 ms
+2024-08-02 12:01:33,433 - INFO - Time it takes to plot data: 0.003034 ms
+2024-08-02 12:01:33,623 - INFO - Received 100 samples
+2024-08-02 12:01:33,623 - INFO - Time it takes to pull data: 0.164112 ms
+2024-08-02 12:01:33,624 - INFO - Total time since previous plot iteration: 193.71 ms
+2024-08-02 12:01:33,624 - INFO - Time delay between first and second subscriber: 1.964569 ms
+2024-08-02 12:01:33,627 - INFO - Time it takes to plot data: 0.003036 ms
+2024-08-02 12:01:33,819 - INFO - Received 100 samples
+2024-08-02 12:01:33,819 - INFO - Time it takes to pull data: 0.170716 ms
+2024-08-02 12:01:33,820 - INFO - Total time since previous plot iteration: 196.24 ms
+2024-08-02 12:01:33,820 - INFO - Time delay between first and second subscriber: 1.963139 ms
+2024-08-02 12:01:33,822 - INFO - Time it takes to plot data: 0.002044 ms
+2024-08-02 12:01:34,014 - INFO - Received 100 samples
+2024-08-02 12:01:34,015 - INFO - Time it takes to pull data: 0.167439 ms
+2024-08-02 12:01:34,015 - INFO - Total time since previous plot iteration: 194.60 ms
+2024-08-02 12:01:34,015 - INFO - Time delay between first and second subscriber: 0.999689 ms
+2024-08-02 12:01:34,018 - INFO - Time it takes to plot data: 0.002999 ms
+2024-08-02 12:01:34,211 - INFO - Received 100 samples
+2024-08-02 12:01:34,211 - INFO - Time it takes to pull data: 0.170498 ms
+2024-08-02 12:01:34,212 - INFO - Total time since previous plot iteration: 197.68 ms
+2024-08-02 12:01:34,212 - INFO - Time delay between first and second subscriber: 1.969099 ms
+2024-08-02 12:01:34,215 - INFO - Time it takes to plot data: 0.003031 ms
+2024-08-02 12:01:34,402 - INFO - Received 100 samples
+2024-08-02 12:01:34,402 - INFO - Time it takes to pull data: 0.162488 ms
+2024-08-02 12:01:34,402 - INFO - Total time since previous plot iteration: 189.90 ms
+2024-08-02 12:01:34,402 - INFO - Time delay between first and second subscriber: 0.962496 ms
+2024-08-02 12:01:34,405 - INFO - Time it takes to plot data: 0.003035 ms
+2024-08-02 12:01:34,596 - INFO - Received 100 samples
+2024-08-02 12:01:34,596 - INFO - Time it takes to pull data: 0.169842 ms
+2024-08-02 12:01:34,597 - INFO - Total time since previous plot iteration: 194.92 ms
+2024-08-02 12:01:34,597 - INFO - Time delay between first and second subscriber: 1.000643 ms
+2024-08-02 12:01:34,600 - INFO - Time it takes to plot data: 0.002998 ms
+2024-08-02 12:01:34,797 - INFO - Received 100 samples
+2024-08-02 12:01:34,798 - INFO - Time it takes to pull data: 0.175874 ms
+2024-08-02 12:01:34,798 - INFO - Total time since previous plot iteration: 200.91 ms
+2024-08-02 12:01:34,798 - INFO - Time delay between first and second subscriber: 0.999689 ms
+2024-08-02 12:01:34,801 - INFO - Time it takes to plot data: 0.002999 ms
+2024-08-02 12:01:34,989 - INFO - Received 100 samples
+2024-08-02 12:01:34,989 - INFO - Time it takes to pull data: 0.158865 ms
+2024-08-02 12:01:34,990 - INFO - Total time since previous plot iteration: 191.88 ms
+2024-08-02 12:01:34,990 - INFO - Time delay between first and second subscriber: 1.966715 ms
+2024-08-02 12:01:34,993 - INFO - Time it takes to plot data: 0.003033 ms
+2024-08-02 12:01:35,182 - INFO - Received 100 samples
+2024-08-02 12:01:35,182 - INFO - Time it takes to pull data: 0.167383 ms
+2024-08-02 12:01:35,183 - INFO - Total time since previous plot iteration: 193.38 ms
+2024-08-02 12:01:35,183 - INFO - Time delay between first and second subscriber: 1.968145 ms
+2024-08-02 12:01:35,186 - INFO - Time it takes to plot data: 0.002997 ms
+2024-08-02 12:01:35,382 - INFO - Received 100 samples
+2024-08-02 12:01:35,382 - INFO - Time it takes to pull data: 0.174859 ms
+2024-08-02 12:01:35,382 - INFO - Total time since previous plot iteration: 198.86 ms
+2024-08-02 12:01:35,382 - INFO - Time delay between first and second subscriber: 0.967979 ms
+2024-08-02 12:01:35,385 - INFO - Time it takes to plot data: 0.003035 ms
+2024-08-02 12:01:35,575 - INFO - Received 100 samples
+2024-08-02 12:01:35,575 - INFO - Time it takes to pull data: 0.168733 ms
+2024-08-02 12:01:35,575 - INFO - Total time since previous plot iteration: 192.73 ms
+2024-08-02 12:01:35,575 - INFO - Time delay between first and second subscriber: 0.966311 ms
+2024-08-02 12:01:35,578 - INFO - Time it takes to plot data: 0.003032 ms
+2024-08-02 12:01:35,770 - INFO - Received 100 samples
+2024-08-02 12:01:35,770 - INFO - Time it takes to pull data: 0.170620 ms
+2024-08-02 12:01:35,770 - INFO - Total time since previous plot iteration: 194.62 ms
+2024-08-02 12:01:35,771 - INFO - Time delay between first and second subscriber: 0.971317 ms
+2024-08-02 12:01:35,774 - INFO - Time it takes to plot data: 0.003038 ms
+2024-08-02 12:01:35,963 - INFO - Received 100 samples
+2024-08-02 12:01:35,963 - INFO - Time it takes to pull data: 0.167113 ms
+2024-08-02 12:01:35,963 - INFO - Total time since previous plot iteration: 193.10 ms
+2024-08-02 12:01:35,963 - INFO - Time delay between first and second subscriber: 0.956535 ms
+2024-08-02 12:01:35,966 - INFO - Time it takes to plot data: 0.002035 ms
+2024-08-02 12:01:36,162 - INFO - Received 100 samples
+2024-08-02 12:01:36,162 - INFO - Time it takes to pull data: 0.175375 ms
+2024-08-02 12:01:36,162 - INFO - Total time since previous plot iteration: 199.41 ms
+2024-08-02 12:01:36,162 - INFO - Time delay between first and second subscriber: 0.962973 ms
+2024-08-02 12:01:36,165 - INFO - Time it takes to plot data: 0.003040 ms
+2024-08-02 12:01:36,356 - INFO - Received 100 samples
+2024-08-02 12:01:36,356 - INFO - Time it takes to pull data: 0.164516 ms
+2024-08-02 12:01:36,356 - INFO - Total time since previous plot iteration: 193.52 ms
+2024-08-02 12:01:36,356 - INFO - Time delay between first and second subscriber: 0.963449 ms
+2024-08-02 12:01:36,359 - INFO - Time it takes to plot data: 0.003041 ms
+2024-08-02 12:01:36,555 - INFO - Received 100 samples
+2024-08-02 12:01:36,555 - INFO - Time it takes to pull data: 0.166583 ms
+2024-08-02 12:01:36,556 - INFO - Total time since previous plot iteration: 200.59 ms
+2024-08-02 12:01:36,556 - INFO - Time delay between first and second subscriber: 1.969099 ms
+2024-08-02 12:01:36,559 - INFO - Time it takes to plot data: 0.003032 ms
+2024-08-02 12:01:36,748 - INFO - Received 100 samples
+2024-08-02 12:01:36,748 - INFO - Time it takes to pull data: 0.167512 ms
+2024-08-02 12:01:36,748 - INFO - Total time since previous plot iteration: 191.51 ms
+2024-08-02 12:01:36,748 - INFO - Time delay between first and second subscriber: 0.964403 ms
+2024-08-02 12:01:36,751 - INFO - Time it takes to plot data: 0.003005 ms
+2024-08-02 12:01:36,937 - INFO - Received 100 samples
+2024-08-02 12:01:36,938 - INFO - Time it takes to pull data: 0.163048 ms
+2024-08-02 12:01:36,938 - INFO - Total time since previous plot iteration: 190.05 ms
+2024-08-02 12:01:36,938 - INFO - Time delay between first and second subscriber: 1.002312 ms
+2024-08-02 12:01:36,940 - INFO - Time it takes to plot data: 0.002001 ms
+2024-08-02 12:01:37,141 - INFO - Received 100 samples
+2024-08-02 12:01:37,141 - INFO - Time it takes to pull data: 0.177419 ms
+2024-08-02 12:01:37,141 - INFO - Total time since previous plot iteration: 202.93 ms
+2024-08-02 12:01:37,141 - INFO - Time delay between first and second subscriber: 0.965118 ms
+2024-08-02 12:01:37,144 - INFO - Time it takes to plot data: 0.003518 ms
+2024-08-02 12:01:37,334 - INFO - Received 100 samples
+2024-08-02 12:01:37,335 - INFO - Time it takes to pull data: 0.166384 ms
+2024-08-02 12:01:37,335 - INFO - Total time since previous plot iteration: 193.90 ms
+2024-08-02 12:01:37,335 - INFO - Time delay between first and second subscriber: 1.962423 ms
+2024-08-02 12:01:37,338 - INFO - Time it takes to plot data: 0.003037 ms
+2024-08-02 12:01:37,527 - INFO - Received 100 samples
+2024-08-02 12:01:37,528 - INFO - Time it takes to pull data: 0.171957 ms
+2024-08-02 12:01:37,528 - INFO - Total time since previous plot iteration: 193.52 ms
+2024-08-02 12:01:37,528 - INFO - Time delay between first and second subscriber: 1.003742 ms
+2024-08-02 12:01:37,531 - INFO - Time it takes to plot data: 0.003046 ms
+2024-08-02 12:01:37,728 - INFO - Received 100 samples
+2024-08-02 12:01:37,728 - INFO - Time it takes to pull data: 0.177834 ms
+2024-08-02 12:01:37,728 - INFO - Total time since previous plot iteration: 199.43 ms
+2024-08-02 12:01:37,729 - INFO - Time delay between first and second subscriber: 0.963926 ms
+2024-08-02 12:01:37,731 - INFO - Time it takes to plot data: 0.002044 ms
+2024-08-02 12:01:37,916 - INFO - Received 100 samples
+2024-08-02 12:01:37,916 - INFO - Time it takes to pull data: 0.167427 ms
+2024-08-02 12:01:37,916 - INFO - Total time since previous plot iteration: 188.92 ms
+2024-08-02 12:01:37,916 - INFO - Time delay between first and second subscriber: 0.967503 ms
+2024-08-02 12:01:37,919 - INFO - Time it takes to plot data: 0.002032 ms
+2024-08-02 12:01:38,113 - INFO - Received 100 samples
+2024-08-02 12:01:38,113 - INFO - Time it takes to pull data: 0.180559 ms
+2024-08-02 12:01:38,113 - INFO - Total time since previous plot iteration: 196.60 ms
+2024-08-02 12:01:38,114 - INFO - Time delay between first and second subscriber: 0.000000 ms
+2024-08-02 12:01:38,116 - INFO - Time it takes to plot data: 0.002032 ms
+2024-08-02 12:01:38,311 - INFO - Received 100 samples
+2024-08-02 12:01:38,312 - INFO - Time it takes to pull data: 0.177341 ms
+2024-08-02 12:01:38,312 - INFO - Total time since previous plot iteration: 199.39 ms
+2024-08-02 12:01:38,312 - INFO - Time delay between first and second subscriber: 1.000881 ms
+2024-08-02 12:01:38,316 - INFO - Time it takes to plot data: 0.003034 ms
+2024-08-02 12:01:38,504 - INFO - Received 100 samples
+2024-08-02 12:01:38,505 - INFO - Time it takes to pull data: 0.171028 ms
+2024-08-02 12:01:38,505 - INFO - Total time since previous plot iteration: 192.07 ms
+2024-08-02 12:01:38,505 - INFO - Time delay between first and second subscriber: 0.998735 ms
+2024-08-02 12:01:38,508 - INFO - Time it takes to plot data: 0.003038 ms
+2024-08-02 12:01:38,700 - INFO - Received 100 samples
+2024-08-02 12:01:38,700 - INFO - Time it takes to pull data: 0.177788 ms
+2024-08-02 12:01:38,700 - INFO - Total time since previous plot iteration: 195.79 ms
+2024-08-02 12:01:38,700 - INFO - Time delay between first and second subscriber: 1.005173 ms
+2024-08-02 12:01:38,704 - INFO - Time it takes to plot data: 0.003040 ms
+2024-08-02 12:01:38,898 - INFO - Received 100 samples
+2024-08-02 12:01:38,898 - INFO - Time it takes to pull data: 0.175739 ms
+2024-08-02 12:01:38,898 - INFO - Total time since previous plot iteration: 197.70 ms
+2024-08-02 12:01:38,898 - INFO - Time delay between first and second subscriber: 0.958920 ms
+2024-08-02 12:01:38,901 - INFO - Time it takes to plot data: 0.003038 ms
+2024-08-02 12:01:39,094 - INFO - Received 100 samples
+2024-08-02 12:01:39,095 - INFO - Time it takes to pull data: 0.177577 ms
+2024-08-02 12:01:39,095 - INFO - Total time since previous plot iteration: 196.58 ms
+2024-08-02 12:01:39,095 - INFO - Time delay between first and second subscriber: 1.000881 ms
+2024-08-02 12:01:39,098 - INFO - Time it takes to plot data: 0.003040 ms
+2024-08-02 12:01:39,286 - INFO - Received 100 samples
+2024-08-02 12:01:39,286 - INFO - Time it takes to pull data: 0.173785 ms
+2024-08-02 12:01:39,286 - INFO - Total time since previous plot iteration: 191.78 ms
+2024-08-02 12:01:39,286 - INFO - Time delay between first and second subscriber: 1.001120 ms
+2024-08-02 12:01:39,289 - INFO - Time it takes to plot data: 0.003036 ms
+2024-08-02 12:01:39,485 - INFO - Received 100 samples
+2024-08-02 12:01:39,485 - INFO - Time it takes to pull data: 0.175203 ms
+2024-08-02 12:01:39,485 - INFO - Total time since previous plot iteration: 198.20 ms
+2024-08-02 12:01:39,485 - INFO - Time delay between first and second subscriber: 0.962496 ms
+2024-08-02 12:01:39,489 - INFO - Time it takes to plot data: 0.003037 ms
+2024-08-02 12:01:39,678 - INFO - Received 100 samples
+2024-08-02 12:01:39,678 - INFO - Time it takes to pull data: 0.172203 ms
+2024-08-02 12:01:39,678 - INFO - Total time since previous plot iteration: 193.20 ms
+2024-08-02 12:01:39,678 - INFO - Time delay between first and second subscriber: 0.966072 ms
+2024-08-02 12:01:39,680 - INFO - Time it takes to plot data: 0.002034 ms
+2024-08-02 12:01:39,872 - INFO - Received 100 samples
+2024-08-02 12:01:39,872 - INFO - Time it takes to pull data: 0.177430 ms
+2024-08-02 12:01:39,872 - INFO - Total time since previous plot iteration: 194.43 ms
+2024-08-02 12:01:39,872 - INFO - Time delay between first and second subscriber: 0.961781 ms
+2024-08-02 12:01:39,876 - INFO - Time it takes to plot data: 0.003004 ms
+2024-08-02 12:01:40,074 - INFO - Received 100 samples
+2024-08-02 12:01:40,074 - INFO - Time it takes to pull data: 0.182741 ms
+2024-08-02 12:01:40,074 - INFO - Total time since previous plot iteration: 201.74 ms
+2024-08-02 12:01:40,074 - INFO - Time delay between first and second subscriber: 0.962019 ms
+2024-08-02 12:01:40,078 - INFO - Time it takes to plot data: 0.003998 ms
+2024-08-02 12:01:40,264 - INFO - Received 100 samples
+2024-08-02 12:01:40,264 - INFO - Time it takes to pull data: 0.171854 ms
+2024-08-02 12:01:40,264 - INFO - Total time since previous plot iteration: 189.85 ms
+2024-08-02 12:01:40,265 - INFO - Time delay between first and second subscriber: 0.961304 ms
+2024-08-02 12:01:40,268 - INFO - Time it takes to plot data: 0.003008 ms
+2024-08-02 12:01:40,458 - INFO - Received 100 samples
+2024-08-02 12:01:40,458 - INFO - Time it takes to pull data: 0.172379 ms
+2024-08-02 12:01:40,459 - INFO - Total time since previous plot iteration: 195.38 ms
+2024-08-02 12:01:40,459 - INFO - Time delay between first and second subscriber: 1.001120 ms
+2024-08-02 12:01:40,462 - INFO - Time it takes to plot data: 0.003037 ms
+2024-08-02 12:01:40,652 - INFO - Received 100 samples
+2024-08-02 12:01:40,652 - INFO - Time it takes to pull data: 0.175113 ms
+2024-08-02 12:01:40,652 - INFO - Total time since previous plot iteration: 193.11 ms
+2024-08-02 12:01:40,652 - INFO - Time delay between first and second subscriber: 0.966311 ms
+2024-08-02 12:01:40,655 - INFO - Time it takes to plot data: 0.003036 ms
+2024-08-02 12:01:40,851 - INFO - Received 100 samples
+2024-08-02 12:01:40,851 - INFO - Time it takes to pull data: 0.179279 ms
+2024-08-02 12:01:40,851 - INFO - Total time since previous plot iteration: 198.27 ms
+2024-08-02 12:01:40,851 - INFO - Time delay between first and second subscriber: 0.965834 ms
+2024-08-02 12:01:40,854 - INFO - Time it takes to plot data: 0.003034 ms
+2024-08-02 12:01:41,044 - INFO - Received 100 samples
+2024-08-02 12:01:41,044 - INFO - Time it takes to pull data: 0.168748 ms
+2024-08-02 12:01:41,044 - INFO - Total time since previous plot iteration: 193.75 ms
+2024-08-02 12:01:41,044 - INFO - Time delay between first and second subscriber: 0.962973 ms
+2024-08-02 12:01:41,047 - INFO - Time it takes to plot data: 0.003038 ms
+2024-08-02 12:01:41,235 - INFO - Received 100 samples
+2024-08-02 12:01:41,236 - INFO - Time it takes to pull data: 0.170060 ms
+2024-08-02 12:01:41,236 - INFO - Total time since previous plot iteration: 191.65 ms
+2024-08-02 12:01:41,236 - INFO - Time delay between first and second subscriber: 1.000404 ms
+2024-08-02 12:01:41,238 - INFO - Time it takes to plot data: 0.002003 ms
+2024-08-02 12:01:41,437 - INFO - Received 100 samples
+2024-08-02 12:01:41,437 - INFO - Time it takes to pull data: 0.178527 ms
+2024-08-02 12:01:41,437 - INFO - Total time since previous plot iteration: 201.05 ms
+2024-08-02 12:01:41,437 - INFO - Time delay between first and second subscriber: 0.965118 ms
+2024-08-02 12:01:41,440 - INFO - Time it takes to plot data: 0.003032 ms
+2024-08-02 12:01:41,629 - INFO - Received 100 samples
+2024-08-02 12:01:41,629 - INFO - Time it takes to pull data: 0.169516 ms
+2024-08-02 12:01:41,629 - INFO - Total time since previous plot iteration: 192.11 ms
+2024-08-02 12:01:41,629 - INFO - Time delay between first and second subscriber: 0.966549 ms
+2024-08-02 12:01:41,632 - INFO - Time it takes to plot data: 0.003034 ms
+2024-08-02 12:01:41,821 - INFO - Received 100 samples
+2024-08-02 12:01:41,821 - INFO - Time it takes to pull data: 0.169909 ms
+2024-08-02 12:01:41,822 - INFO - Total time since previous plot iteration: 191.50 ms
+2024-08-02 12:01:41,822 - INFO - Time delay between first and second subscriber: 0.960588 ms
+2024-08-02 12:01:41,825 - INFO - Time it takes to plot data: 0.003035 ms
+2024-08-02 12:01:42,022 - INFO - Received 100 samples
+2024-08-02 12:01:42,022 - INFO - Time it takes to pull data: 0.178787 ms
+2024-08-02 12:01:42,022 - INFO - Total time since previous plot iteration: 201.80 ms
+2024-08-02 12:01:42,022 - INFO - Time delay between first and second subscriber: 0.960112 ms
+2024-08-02 12:01:42,025 - INFO - Time it takes to plot data: 0.003038 ms
+2024-08-02 12:01:42,223 - INFO - Received 100 samples
+2024-08-02 12:01:42,223 - INFO - Time it takes to pull data: 0.179326 ms
+2024-08-02 12:01:42,223 - INFO - Total time since previous plot iteration: 200.33 ms
+2024-08-02 12:01:42,223 - INFO - Time delay between first and second subscriber: 7.998466 ms
+2024-08-02 12:01:42,226 - INFO - Time it takes to plot data: 0.002997 ms
