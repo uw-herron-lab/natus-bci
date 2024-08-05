@@ -11,7 +11,7 @@ This repository is divided into two folders:
   -  a second client that receives processed data
   -  visualizes data via a user interface, creates a BCI task, etc.
  
-To utilize processors in this repository, you must add the `natus-bci/processors` folder path to the `nw-sdk-realtime/NeuroWorksDataClients/python/zmq-sub.py` script found in the `nw-sdk-realtime` repository.
+To utilize processors in this repository, you must add the `natus-bci/processors` folder path to the `nw-sdk-realtime/NeuroWorksDataClients/python/zmq-sub.py` Python file found in the `nw-sdk-realtime` repository.
 
 ```Python
   # zmq-sub.py
