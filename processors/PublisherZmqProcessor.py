@@ -75,6 +75,7 @@ class PublisherZmqProcessor(BaseZmqProcessor):
         # YOUR BATCH PROCESSING GOES HERE #
         ###################################
 
+        # Request to receive channel names
         try:
             req = self.rep_socket.recv(flags=zmq.NOBLOCK)
             print("Received request for channel names!")
@@ -86,7 +87,7 @@ class PublisherZmqProcessor(BaseZmqProcessor):
         except:
             pass
 
-        ### Example: Publish the data to a different topic ###
+        ### Example: Publish processed data to the topic specified by self.pub_topic ###
         current_time = time.time()
         current_time = struct.pack("d", current_time)
 

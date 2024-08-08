@@ -34,7 +34,6 @@ class UnityZmqProcessor(PublisherZmqProcessor):
         data_dict = {"samples": samples.tolist()}
 
         samples_serialized = json.dumps(data_dict).encode()
-        # print(samples_serialized)
         self.pub_socket.send_multipart([self.pub_topic.encode(), samples_serialized])
         print("Message sent!")
 
