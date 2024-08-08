@@ -59,13 +59,13 @@ RUNNING = True
 while RUNNING:
     try:
         samplestamps, samples, _ = clientSub.get_data()
-        data = samples[:, 0]  # Get data from the first channel
-
+        
+        # Apply CSP filters to the data
         filtered_data = np.dot(filters, samples)
         features = np.log(np.var(filtered_data, axis=1))
         features = features.reshape(1, -1)
 
-        ### Control the player paddle based on LDA model predictions###
+        # Control the player paddle based on LDA model predictions
         pred = loaded_model.predict(features)
 
         if pred == 0:
