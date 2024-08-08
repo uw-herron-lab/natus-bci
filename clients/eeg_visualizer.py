@@ -9,8 +9,8 @@ from client_sub import ClientSub
 from utils import get_unique_filename, setup_logging
 
 # Define constants for file paths
-DATA_LOG_FILE = 'logs/matplotlib_visualizer/data.csv'
-DEBUG_LOG_FILE = 'logs/matplotlib_visualizer/debug.log'
+DATA_LOG_FILE = 'logs/eeg_visualizer/data.csv'
+DEBUG_LOG_FILE = 'logs/eeg_visualizer/debug.log'
 
 # Setup logging
 setup_logging(DEBUG_LOG_FILE)
@@ -74,10 +74,11 @@ class EEGVizualizer(ClientSub):
 
             ax.relim()
             ax.autoscale_view(True, True, True)
-            ax.legend()
+            ax.legend(fontsize=12)
             ax.tick_params(axis='y', labelleft=False)
-            ax.set_xlabel("Samples")
-            ax.set_ylabel("Amplitude")
+            ax.set_xlabel("Samples", fontsize=24)
+            ax.set_ylabel("Amplitude", fontsize=24)
+            plt.tick_params(axis='x', labelsize=14)  
 
             end_plot_data_time = time.time()
 

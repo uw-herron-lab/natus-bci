@@ -22,7 +22,7 @@ cue_left = visual.TextStim(win, text="Left Hand",
                            color="white",
                            pos=(-0.5, 0))
 
-left_hand_image = visual.ImageStim(win, image="photos/left_hand.jpg",
+left_hand_image = visual.ImageStim(win, image="figures/left_hand.jpg",
                                    pos=(-0.5, 0.25),
                                    size=(0.7, 0.7),
                                    ori=90)
@@ -31,7 +31,7 @@ cue_right = visual.TextStim(win, text="Right Hand",
                             color="white",
                             pos=(0.5, 0))
 
-right_hand_image = visual.ImageStim(win, image="photos/right_hand.jpg",
+right_hand_image = visual.ImageStim(win, image="figures/right_hand.jpg",
                                     pos=(0.5, 0.25),
                                     size=(0.7, 0.7),
                                     ori=90)

@@ -117,16 +117,22 @@ while RUNNING:
         ai_paddle.bottom = height
 
     # Fill the screen with black
-    screen.fill(white)
+    screen.fill(black)
 
     # Draw the paddles and ball
-    pygame.draw.rect(screen, blue, player_paddle)
-    pygame.draw.rect(screen, blue, ai_paddle)
-    pygame.draw.ellipse(screen, black, ball)
+    pygame.draw.rect(screen, white, player_paddle)
+    pygame.draw.rect(screen, white, ai_paddle)
+    pygame.draw.ellipse(screen, white, ball)
 
-    # Draw the middlbe line
-    pygame.draw.aaline(screen, black, (width // 2, 0), (width // 2, height))
+    # Draw the middle line
+    # Define the length of each dot and the space between dots
+    dot_length = 10
+    space_length = 10
 
+    # Draw the middle dotted line
+    for y in range(0, height, dot_length + space_length):
+        pygame.draw.line(screen, white, (width // 2, y), (width // 2, y + dot_length), width=5)
+        
     # Update the display
     pygame.display.flip()
 
