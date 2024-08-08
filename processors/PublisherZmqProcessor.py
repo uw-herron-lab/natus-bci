@@ -77,14 +77,14 @@ class PublisherZmqProcessor(BaseZmqProcessor):
 
         try:
             req = self.rep_socket.recv(flags=zmq.NOBLOCK)
-            print("Received request!")
+            print("Received request for channel names!")
             if  req.decode() == "get_channel_names":
                 info = self.request_info(self.info_socket)
                 ch_names = '\n'.join(info['channelNames'])
                 self.rep_socket.send_string(ch_names)
                 print("Sent channel names!")
         except:
-            print("No request yet")
+            pass
 
         ### Example: Publish the data to a different topic ###
         current_time = time.time()
