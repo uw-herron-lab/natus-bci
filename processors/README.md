@@ -9,4 +9,7 @@ Serves as the base class from which all custom processors inherit from. Allows f
 A processor class that receives data batches and performs some custom batch processing. Publishes data to a unique topic for ZeroMQ subscribers to receive processed data.
 
 ## UnityZmqProcessor
-A processor class that receives data batches and performs some custom batch processing. Publish data specifically for NetMQ subscribers in Unity Game Engine to receive processed data.
+A processor class that receives data batches and performs some custom batch processing. Publishes data specifically for NetMQ subscribers in Unity Game Engine to receive processed data.
+
+## PlotZmqProcessor
+Experimental processor that plots the data batches directly from the data stream without needing an additional user interface (caution: does not run as quickly).
