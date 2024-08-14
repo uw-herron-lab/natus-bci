@@ -1,5 +1,7 @@
 # Processors
 
+Download `MyZmqProcessor.py` from `nw-sdk-realtime/NeuroWorksDataClients/python/MyZmqProcessor.py` in the `nw-sdk-realtime` repository, place in this `processors` folder and rename the file to `BaseZmqProcessor.py`
+
 Folder containing the processors that can be used in conjunction with the NeuroWorks Python SDK. Specify which processor to use by adding the path of the processors folder to the `zmq-sub.py` client in the `nw-sdk-realtime` repository and using the keyword `--class ProcessorName` when running the NeuroWorks Python SDK.
 
 ## BaseZmqProcessor
