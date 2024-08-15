@@ -1,1 +1,2 @@
+processors/MyZmqProcessor.py
 processors/BaseZmqProcessor.py
