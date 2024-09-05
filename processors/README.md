@@ -1,6 +1,8 @@
 # Processors
 
-Folder containing the processors that can be used in conjunction with the NeuroWorks Python SDK. Specify which processor to use by adding the path of the processors folder to the `zmq-sub.py` client in the `nw-sdk-realtime` repository and using the keyword `--class ProcessorName` when running the NeuroWorks Python SDK.
+Download `MyZmqProcessor.py` found in `nw-sdk-realtime/NeuroWorksDataClients/python` from the `nw-sdk-realtime` repository (please contact Natus Medical, Inc. at [sdk@natus.com], if access is needed). Copy this file to the `natus-bci/processors` folder and rename `MyZmqProcessor.py` to `BaseZmqProcessor.py`.
+
+This folder contains the processors that can be used to specify processing function of the NeuroWorks Python Client SDK. Specify which processor the Python Client SDK uses by adding the path of the `processors` folder to the `zmq-sub.py` client in the `nw-sdk-realtime` repository. Use the keyword `--class ProcessorName` when running the NeuroWorks Python SDK.
 
 ## BaseZmqProcessor
 Serves as the base class from which all custom processors inherit from. Allows for real-time reception of data batches and can specify what kind of batch processing one would like to implement in the `process` function.
